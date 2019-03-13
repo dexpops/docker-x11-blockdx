@@ -1,0 +1,53 @@
+#!/bin/bash
+echo "Starting blocknetdx-qt"
+
+which blocknetdx-qt
+
+# Fast sync mode
+if [[ ! -v BLOCKNETDX_SNAPSHOT ]]
+then
+  echo "Normal startup"
+  echo $BLOCKNETDX_SNAPSHOT
+else
+  echo "Check fastsync startup?"
+  if [ ! -f "$BLOCKNETDX_DATA/.fast_synced" ]
+  then
+    echo "Extracting snapshot from zip: $BLOCKNETDX_SNAPSHOT to: $BLOCKNETDX_DATA"
+    unzip -d $BLOCKNETDX_DATA $BLOCKNETDX_SNAPSHOT
+    mv $BLOCKNETDX_DATA/BlocknetDX/blocks $BLOCKNETDX_DATA/blocks
+    mv $BLOCKNETDX_DATA/BlocknetDX/chainstate $BLOCKNETDX_DATA/chainstate
+    touch $BLOCKNETDX_DATA/.fast_synced
+  fi
+fi
+
+cat <<-EOF > "$BLOCKNETDX_DATA/blocknetdx.conf"
+datadir=/home/blocknet/.blocknetdx
+dbcache=256
+maxmempool=512
+maxmempoolxbridge=128
+${BLOCKNETDX_EXTRA_ARGS}
+EOF
+
+# Set some defaults
+if [[ ! -v BLOCKNETDX_EXTRA_ARGS ]]
+then
+  echo "Setting defaults"
+  cat << EOF >> "$BLOCKNETDX_DATA/blocknetdx.conf"
+port=41412
+rpcport=41414
+listen=1
+server=1
+logtimestamps=1
+logips=1
+rpcallowip=0.0.0.0/0
+rpctimeout=15
+rpcclienttimeout=15
+printtoconsole=1
+rpcuser=blocknetdxrpc
+rpcpassword=DsSjSaRQdPHNJkedZf2K2dcNTEVg3ztCuK2m7vjAisCK
+EOF
+fi
+
+chown -R blocknet:blocknet $BLOCKNETDX_DATA
+
+exec gosu blocknet blocknetdx-qt --conf=/home/blocknet/.blocknetdx/blocknetdx.conf

@@ -5,7 +5,9 @@ run:
 	 docker run --rm \
 		--name blockdx-x11 \
 		--volumes-from x11-bridge \
-		-e DISPLAY=:14 \
+		-v "/Users/kj/utxo/BlocknetDX.zip:/BlocknetDX.zip" \
+		-e DISPLAY=":14" \
+		-e BLOCKNETDX_SNAPSHOT="/BlocknetDX.zip" \
 		-d dexpops/docker-x11-blockdx:latest
 
 stop:

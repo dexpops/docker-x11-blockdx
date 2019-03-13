@@ -1,9 +1,15 @@
 #!/bin/bash
-which block-dx
+echo "Starting blockdx"
 
-block-dx
+echo "Waiting for blocknetdx-qt to launch on 41414..."
+chown -R blocknet:blocknet /home/blocknet
+chown -R blocknet:blocknet /home/blocknet/.config
 
-while true
-do
-	sleep 10
+while ! nc -z localhost 41414; do
+  sleep 10 # wait for 1 second before trying again
 done
+
+echo "blocknetdx-qt found!"
+sleep 10
+
+exec gosu blocknet block-dx
