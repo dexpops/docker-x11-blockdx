@@ -1,0 +1,9 @@
+#!/bin/bash
+which block-dx
+
+block-dx
+
+while true
+do
+	sleep 10
+done

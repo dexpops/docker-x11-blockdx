@@ -1,0 +1,2176 @@
+{
+	"pricingSource": "CRYPTO_COMPARE",
+	"apiKeys": {},
+	"pricingUnit": "BTC",
+	"pricingFrequency": 15000,
+	"pricingEnabled": false,
+	"addresses": {},
+	"tos": true,
+	"port": "41414",
+	"confRepoSha": "11cf36c8c089279e039fe7a44e3f0cba54eab585",
+	"manifest": [{
+			"blockchain": "AeriumX",
+			"ticker": "AEX",
+			"ver_id": "aeriumx--v2.0",
+			"ver_name": "AeriumX",
+			"conf_name": "aeriumx.conf",
+			"dir_name_linux": "aeriumx",
+			"dir_name_mac": "AeriumX",
+			"dir_name_win": "AeriumX",
+			"repo_url": "https://github.com/aeriumcoin/AeriumX",
+			"versions": [
+				"v2.0",
+				"v2.1",
+				"v2.2"
+			],
+			"xbridge_conf": "aeriumx--v2.0.conf",
+			"wallet_conf": "aeriumx--v2.0.conf"
+		},
+		{
+			"blockchain": "ALQO",
+			"ticker": "XLQ",
+			"ver_id": "alqo--v4.1",
+			"ver_name": "ALQO",
+			"conf_name": "alqo.conf",
+			"dir_name_linux": "alqo",
+			"dir_name_mac": "ALQO",
+			"dir_name_win": "ALQO",
+			"repo_url": "https://github.com/ALQOCRYPTO/ALQO",
+			"versions": [
+				"v4.1",
+				"v4.2"
+			],
+			"xbridge_conf": "alqo--v4.1.conf",
+			"wallet_conf": "alqo--v4.1.conf"
+		},
+		{
+			"blockchain": "AmsterdamCoin",
+			"ticker": "AMS",
+			"ver_id": "amsterdamcoin--v4.6.0.0",
+			"ver_name": "AmsterdamCoin",
+			"conf_name": "amsterdamcoin.conf",
+			"dir_name_linux": "amsterdamcoin",
+			"dir_name_mac": "AmsterdamCoin",
+			"dir_name_win": "AmsterdamCoin",
+			"repo_url": "https://github.com/CoinProjects/AmsterdamCoin-v4",
+			"versions": [
+				"v4.6.0.0"
+			],
+			"xbridge_conf": "amsterdamcoin--v4.6.0.0.conf",
+			"wallet_conf": "amsterdamcoin--v4.6.0.0.conf"
+		},
+		{
+			"blockchain": "APR Coin",
+			"ticker": "APR",
+			"ver_id": "aprcoin--v1.0",
+			"ver_name": "APR Coin",
+			"conf_name": "aprcoin.conf",
+			"dir_name_linux": "aprcoin",
+			"dir_name_mac": "AprCoin",
+			"dir_name_win": "AprCoin",
+			"repo_url": "https://github.com/APRCoin/zenith-repository",
+			"versions": [
+				"v1.0",
+				"v2.0",
+				"V2.1",
+				"V2.2",
+				"V3.0"
+			],
+			"xbridge_conf": "aprcoin--v1.0.conf",
+			"wallet_conf": "aprcoin--v1.0.conf"
+		},
+		{
+			"blockchain": "AustraliaCash",
+			"ticker": "AUS",
+			"ver_id": "australiacash--v0.17.4.0",
+			"ver_name": "AustraliaCash",
+			"conf_name": "australiacash.conf",
+			"dir_name_linux": "australiacash",
+			"dir_name_mac": "Australiacash",
+			"dir_name_win": "Australiacash",
+			"repo_url": "https://github.com/AustraliaCash/AustraliaCash-Core",
+			"versions": [
+				"v0.17.4.0"
+			],
+			"xbridge_conf": "australiacash--v0.17.4.0.conf",
+			"wallet_conf": "australiacash--v0.17.4.0.conf"
+		},
+		{
+			"blockchain": "Banq",
+			"ticker": "BANQ",
+			"ver_id": "banq--v1.0",
+			"ver_name": "Banq",
+			"conf_name": "banq.conf",
+			"dir_name_linux": "banqcore",
+			"dir_name_mac": "BanqCore",
+			"dir_name_win": "BanqCore",
+			"repo_url": "https://github.com/banq-platform/banq",
+			"versions": [
+				"v1.0"
+			],
+			"xbridge_conf": "banq--v1.0.conf",
+			"wallet_conf": "banq--v1.0.conf"
+		},
+		{
+			"blockchain": "Bitcoin",
+			"ticker": "BTC",
+			"ver_id": "bitcoin--v0.15.1",
+			"ver_name": "Bitcoin v0.15.x",
+			"conf_name": "bitcoin.conf",
+			"dir_name_linux": "bitcoin",
+			"dir_name_mac": "Bitcoin",
+			"dir_name_win": "Bitcoin",
+			"repo_url": "https://github.com/bitcoin/bitcoin",
+			"versions": [
+				"v0.15.1",
+				"v0.15.2"
+			],
+			"xbridge_conf": "bitcoin--v0.15.1.conf",
+			"wallet_conf": "bitcoin--v0.15.1.conf"
+		},
+		{
+			"blockchain": "Bitcoin",
+			"ticker": "BTC",
+			"ver_id": "bitcoin--v0.16.0",
+			"ver_name": "Bitcoin v0.16.x",
+			"conf_name": "bitcoin.conf",
+			"dir_name_linux": "bitcoin",
+			"dir_name_mac": "Bitcoin",
+			"dir_name_win": "Bitcoin",
+			"repo_url": "https://github.com/bitcoin/bitcoin",
+			"versions": [
+				"v0.16.0",
+				"v0.16.1",
+				"v0.16.2",
+				"v0.16.3"
+			],
+			"xbridge_conf": "bitcoin--v0.15.1.conf",
+			"wallet_conf": "bitcoin--v0.16.0.conf"
+		},
+		{
+			"blockchain": "Bitcoin",
+			"ticker": "BTC",
+			"ver_id": "bitcoin--v0.17.0",
+			"ver_name": "Bitcoin v0.17.x",
+			"conf_name": "bitcoin.conf",
+			"dir_name_linux": "bitcoin",
+			"dir_name_mac": "Bitcoin",
+			"dir_name_win": "Bitcoin",
+			"repo_url": "https://github.com/bitcoin/bitcoin",
+			"versions": [
+				"v0.17.0",
+				"v0.17.0.1",
+				"v0.17.1"
+			],
+			"xbridge_conf": "bitcoin--v0.15.1.conf",
+			"wallet_conf": "bitcoin--v0.17.0.conf"
+		},
+		{
+			"blockchain": "Bitcoin Green",
+			"ticker": "BITG",
+			"ver_id": "bitcoingreen--1.1.0",
+			"ver_name": "Bitcoin Green",
+			"conf_name": "bitcoingreen.conf",
+			"dir_name_linux": "bitcoingreen",
+			"dir_name_mac": "BitcoinGreen",
+			"dir_name_win": "BitcoinGreen",
+			"repo_url": "https://github.com/bitcoingreen/bitcoingreen",
+			"versions": [
+				"1.1.0",
+				"1.2.2",
+				"v1.3.0"
+			],
+			"xbridge_conf": "bitcoingreen--1.1.0.conf",
+			"wallet_conf": "bitcoingreen--1.1.0.conf"
+		},
+		{
+			"blockchain": "BitCore",
+			"ticker": "BTX",
+			"ver_id": "bitcore--0.15.2.0.0",
+			"ver_name": "BitCore",
+			"conf_name": "bitcore.conf",
+			"dir_name_linux": "bitcore",
+			"dir_name_mac": "BitCore",
+			"dir_name_win": "BitCore",
+			"repo_url": "https://github.com/LIMXTEC/BitCore",
+			"versions": [
+				"0.15.2.0.0"
+			],
+			"xbridge_conf": "bitcore--0.15.2.0.0.conf",
+			"wallet_conf": "bitcore--0.15.2.0.0.conf"
+		},
+		{
+			"blockchain": "BitcoinZero",
+			"ticker": "BZX",
+			"ver_id": "bitcoinzero--5.0.1.0",
+			"ver_name": "BitcoinZero 5.0.1.0",
+			"conf_name": "bitcoinzero.conf",
+			"dir_name_linux": "bitcoinzero",
+			"dir_name_mac": "bitcoinzero",
+			"dir_name_win": "bitcoinzero",
+			"repo_url": "https://github.com/BitcoinZeroOfficial/bitcoinzero",
+			"versions": [
+				"5.0.1.0",
+				"5.0.1.1"
+			],
+			"xbridge_conf": "bitcoinzero--5.0.0.5.conf",
+			"wallet_conf": "bitcoinzero--5.0.0.5.conf"
+		},
+		{
+			"blockchain": "BLAST",
+			"ticker": "BLAST",
+			"ver_id": "blast--v1.2.0.2",
+			"ver_name": "BLAST",
+			"conf_name": "blast.conf",
+			"dir_name_linux": "blast",
+			"dir_name_mac": "BLAST",
+			"dir_name_win": "BLAST",
+			"repo_url": "https://github.com/blastdev/blast-core",
+			"versions": [
+				"v1.2.0.2",
+				"v1.3.0.0"
+			],
+			"xbridge_conf": "blast--v1.2.0.2.conf",
+			"wallet_conf": "blast--v1.2.0.2.conf"
+		},
+		{
+			"blockchain": "Blocknet",
+			"ticker": "BLOCK",
+			"ver_id": "blocknetdx--v3.9.16",
+			"ver_name": "Blocknet v3.10.5+",
+			"conf_name": "blocknetdx.conf",
+			"dir_name_linux": "blocknetdx",
+			"dir_name_mac": "BlocknetDX",
+			"dir_name_win": "BlocknetDX",
+			"repo_url": "https://github.com/BlocknetDX/blocknet",
+			"versions": [
+				"v3.12.1",
+				"v3.12.1-classic"
+			],
+			"xbridge_conf": "blocknetdx--v3.9.16.conf",
+			"wallet_conf": "blocknetdx--v3.9.16.conf"
+		},
+		{
+			"blockchain": "Bulwark",
+			"ticker": "BWK",
+			"ver_id": "bulwark--1.2.4",
+			"ver_name": "Bulwark",
+			"conf_name": "bulwark.conf",
+			"dir_name_linux": "bulwark",
+			"dir_name_mac": "Bulwark",
+			"dir_name_win": "Bulwark",
+			"repo_url": "https://github.com/bulwark-crypto/Bulwark",
+			"versions": [
+				"1.2.4",
+				"1.3.0",
+				"1.3.1",
+				"2.0.0",
+				"2.1.0",
+				"2.1.1"
+			],
+			"xbridge_conf": "bulwark--1.2.4.conf",
+			"wallet_conf": "bulwark--1.2.4.conf"
+		},
+		{
+			"blockchain": "Carebit",
+			"ticker": "CARE",
+			"ver_id": "carebitcoin--v3.0.0.0",
+			"ver_name": "Carebit",
+			"conf_name": "carebitcoin.conf",
+			"dir_name_linux": "carebitcoin",
+			"dir_name_mac": "CarebitCoin",
+			"dir_name_win": "CarebitCoin",
+			"repo_url": "https://github.com/carebitcoin/carebitcoin",
+			"versions": [
+				"v3.0.0.0",
+				"v4.0.0.0"
+			],
+			"xbridge_conf": "carebitcoin--v3.0.0.0.conf",
+			"wallet_conf": "carebitcoin--v3.0.0.0.conf"
+		},
+		{
+			"blockchain": "Civitas",
+			"ticker": "CIV",
+			"ver_id": "civitas--v1.2.2",
+			"ver_name": "Civitas",
+			"conf_name": "civitas.conf",
+			"dir_name_linux": "civitas",
+			"dir_name_mac": "Civitas",
+			"dir_name_win": "Civitas",
+			"repo_url": "https://github.com/eastcoastcrypto/Civitas",
+			"versions": [
+				"v1.2.2"
+			],
+			"xbridge_conf": "civitas--v1.2.2.conf",
+			"wallet_conf": "civitas--v1.2.2.conf"
+		},
+		{
+			"blockchain": "ColossusXT",
+			"ticker": "COLX",
+			"ver_id": "ColossusXT--v1.0.5",
+			"ver_name": "ColossusXT",
+			"conf_name": "ColossusXT.conf",
+			"dir_name_linux": "ColossusXT",
+			"dir_name_mac": "ColossusCoinXT",
+			"dir_name_win": "ColossusCoinXT",
+			"repo_url": "https://github.com/ColossusCoinXT/ColossusCoinXT",
+			"versions": [
+				"v1.0.5",
+				"v1.1.1",
+				"v1.2.0"
+			],
+			"xbridge_conf": "ColossusXT--v1.0.5.conf",
+			"wallet_conf": "ColossusXT--v1.0.5.conf"
+		},
+		{
+			"blockchain": "Crave",
+			"ticker": "CRAVE",
+			"ver_id": "crave--v2.5.0.3",
+			"ver_name": "Crave",
+			"conf_name": "crave.conf",
+			"dir_name_linux": "craveng",
+			"dir_name_mac": "CraveNG",
+			"dir_name_win": "CraveNG",
+			"repo_url": "https://github.com/Crave-Project/Crave-NG",
+			"versions": [
+				"v2.5.0.3",
+				"v2.5.1"
+			],
+			"xbridge_conf": "crave--v2.5.0.3.conf",
+			"wallet_conf": "crave--v2.5.0.3.conf"
+		},
+		{
+			"blockchain": "CrowdCoin",
+			"ticker": "CRC",
+			"ver_id": "crowdcoin--2.0.0",
+			"ver_name": "CrowdCoin",
+			"conf_name": "crowdcoin.conf",
+			"dir_name_linux": "crowdcoinbrain",
+			"dir_name_mac": "CrowdcoinBrain",
+			"dir_name_win": "CrowdcoinBrain",
+			"repo_url": "https://github.com/crowdcoinChain/Crowdcoin",
+			"versions": [
+				"2.0.0",
+				"2.0.1"
+			],
+			"xbridge_conf": "crowdcoin--1.1.0.conf",
+			"wallet_conf": "crowdcoin--1.1.0.conf"
+		},
+		{
+			"blockchain": "Crown",
+			"ticker": "CRW",
+			"ver_id": "crown--v0.12.4.1",
+			"ver_name": "Crown",
+			"conf_name": "crown.conf",
+			"dir_name_linux": "crown",
+			"dir_name_mac": "Crown",
+			"dir_name_win": "Crown",
+			"repo_url": "https://github.com/Crowndev/crown-core",
+			"versions": [
+				"v0.12.4.1",
+				"v0.12.5.1",
+				"v0.12.5.2",
+				"v0.12.5.3"
+			],
+			"xbridge_conf": "crown--v0.12.4.1.conf",
+			"wallet_conf": "crown--v0.12.4.1.conf"
+		},
+		{
+			"blockchain": "CryptoCashBack",
+			"ticker": "CCBC",
+			"ver_id": "ccbc--v1.2.0.1",
+			"ver_name": "CryptoCashBack",
+			"conf_name": "ccbc.conf",
+			"dir_name_linux": "ccbc",
+			"dir_name_mac": "CCBC",
+			"dir_name_win": "CCBC",
+			"repo_url": "https://github.com/CryptoCashBack-Hub/CCBC",
+			"versions": [
+				"v1.2.0.1"
+			],
+			"xbridge_conf": "ccbc--v1.2.0.1.conf",
+			"wallet_conf": "ccbc--v1.2.0.1.conf"
+		},
+		{
+			"blockchain": "Dash",
+			"ticker": "DASH",
+			"ver_id": "dash--v0.12.2.3",
+			"ver_name": "Dash",
+			"conf_name": "dash.conf",
+			"dir_name_linux": "dashcore",
+			"dir_name_mac": "DashCore",
+			"dir_name_win": "DashCore",
+			"repo_url": "https://github.com/dashpay/dash",
+			"versions": [
+				"v0.12.2.3",
+				"v0.12.3",
+				"v0.12.3.1",
+				"v0.12.3.2",
+				"v0.12.3.3",
+				"v0.13.0.0"
+			],
+			"xbridge_conf": "dash--v0.12.2.3.conf",
+			"wallet_conf": "dash--v0.12.2.3.conf"
+		},
+		{
+			"blockchain": "Desire",
+			"ticker": "DSR",
+			"ver_id": "desire--Desire-v.0.12.2.2",
+			"ver_name": "Desire",
+			"conf_name": "desire.conf",
+			"dir_name_linux": "desirecore",
+			"dir_name_mac": "DesireCore",
+			"dir_name_win": "DesireCore",
+			"repo_url": "https://github.com/lazyboozer/Desire",
+			"versions": [
+				"Desire-v.0.12.2.2"
+			],
+			"xbridge_conf": "desire--Desire-v.0.12.2.2.conf",
+			"wallet_conf": "desire--Desire-v.0.12.2.2.conf"
+		},
+		{
+			"blockchain": "Diamond",
+			"ticker": "DMD",
+			"ver_id": "diamond--v3.0.1.1",
+			"ver_name": "Diamond",
+			"conf_name": "diamond.conf",
+			"dir_name_linux": "DMDV3",
+			"dir_name_mac": "DMDV3",
+			"dir_name_win": "DMDV3",
+			"repo_url": "https://github.com/DMDcoin/Diamond",
+			"versions": [
+				"v3.0.1.1",
+				"v3.0.1.2",
+				"3.0.1.3"
+			],
+			"xbridge_conf": "diamond--v3.0.1.1.conf",
+			"wallet_conf": "diamond--v3.0.1.1.conf"
+		},
+		{
+			"blockchain": "DigiByte",
+			"ticker": "DGB",
+			"ver_id": "digibyte--v6.16.2",
+			"ver_name": "DigiByte",
+			"conf_name": "digibyte.conf",
+			"dir_name_linux": "digibyte",
+			"dir_name_mac": "DigiByte",
+			"dir_name_win": "DigiByte",
+			"repo_url": "https://github.com/digibyte/digibyte",
+			"versions": [
+				"v6.16.2",
+				"v6.16.3",
+				"v6.16.4",
+				"v6.16.5",
+				"v6.16.5.1"
+			],
+			"xbridge_conf": "digibyte--v6.16.2.conf",
+			"wallet_conf": "digibyte--v6.16.2.conf"
+		},
+		{
+			"blockchain": "Digiwage",
+			"ticker": "WAGE",
+			"ver_id": "digiwage--v1.1.0",
+			"ver_name": "Digiwage",
+			"conf_name": "digiwage.conf",
+			"dir_name_linux": "digiwage",
+			"dir_name_mac": "Digiwage",
+			"dir_name_win": "Digiwage",
+			"repo_url": "https://github.com/digiwage/digiwage",
+			"versions": [
+				"v1.1.0",
+				"1.2.0",
+				"1.2.1"
+			],
+			"xbridge_conf": "digiwage--v1.1.0.conf",
+			"wallet_conf": "digiwage--v1.1.0.conf"
+		},
+		{
+			"blockchain": "Dinero",
+			"ticker": "DIN",
+			"ver_id": "dinero--v1.0.1.1",
+			"ver_name": "Dinero",
+			"conf_name": "dinero.conf",
+			"dir_name_linux": "dinerocore",
+			"dir_name_mac": "DineroCore",
+			"dir_name_win": "DineroCore",
+			"repo_url": "https://github.com/dinerocoin/dinero",
+			"versions": [
+				"v1.0.1.1"
+			],
+			"xbridge_conf": "dinero--v1.0.1.1.conf",
+			"wallet_conf": "dinero--v1.0.1.1.conf"
+		},
+		{
+			"blockchain": "Divi",
+			"ticker": "DIVI",
+			"ver_id": "divi--DESK-1.2.2",
+			"ver_name": "Divi",
+			"conf_name": "divi.conf",
+			"dir_name_linux": "divi",
+			"dir_name_mac": "DIVI",
+			"dir_name_win": "DIVI",
+			"repo_url": "https://github.com/Divicoin/Divi",
+			"versions": [
+				"DESK-1.2.2"
+			],
+			"xbridge_conf": "divi--DESK-1.2.2.conf",
+			"wallet_conf": "divi--DESK-1.2.2.conf"
+		},
+		{
+			"blockchain": "Dogecoin",
+			"ticker": "DOGE",
+			"ver_id": "dogecoin--v1.10.0",
+			"ver_name": "Dogecoin",
+			"conf_name": "dogecoin.conf",
+			"dir_name_linux": "dogecoin",
+			"dir_name_mac": "Dogecoin",
+			"dir_name_win": "Dogecoin",
+			"repo_url": "https://github.com/dogecoin/dogecoin",
+			"versions": [
+				"v1.10.0",
+				"v1.10.0-dogeparty",
+				"v1.14-beta-1"
+			],
+			"xbridge_conf": "dogecoin--v1.10.0.conf",
+			"wallet_conf": "dogecoin--v1.10.0.conf"
+		},
+		{
+			"blockchain": "Dynamic",
+			"ticker": "DYN",
+			"ver_id": "dynamic--v2.3.5.0",
+			"ver_name": "Dynamic",
+			"conf_name": "dynamic.conf",
+			"dir_name_linux": "dynamic",
+			"dir_name_mac": "Dynamic",
+			"dir_name_win": "Dynamic",
+			"repo_url": "https://github.com/duality-solutions/Dynamic",
+			"versions": [
+				"v2.3.5.0"
+			],
+			"xbridge_conf": "dynamic--v2.3.5.0.conf",
+			"wallet_conf": "dynamic--v2.3.5.0.conf"
+		},
+		{
+			"blockchain": "Einsteinium",
+			"ticker": "EMC2",
+			"ver_id": "einsteinium--v0.13.48.0",
+			"ver_name": "Einsteinium",
+			"conf_name": "einsteinium.conf",
+			"dir_name_linux": "einsteinium",
+			"dir_name_mac": "Einsteinium",
+			"dir_name_win": "Einsteinium",
+			"repo_url": "https://github.com/emc2foundation/einsteinium",
+			"versions": [
+				"v0.13.48.0",
+				"v0.13.5.0"
+			],
+			"xbridge_conf": "einsteinium--v0.13.48.0.conf",
+			"wallet_conf": "einsteinium--v0.13.48.0.conf"
+		},
+		{
+			"blockchain": "Eternity",
+			"ticker": "ENT",
+			"ver_id": "eternity--v0.12.1.7",
+			"ver_name": "Eternity",
+			"conf_name": "eternity.conf",
+			"dir_name_linux": "eternitycore",
+			"dir_name_mac": "EternityCore",
+			"dir_name_win": "EternityCore",
+			"repo_url": "https://github.com/eternity-group/eternity",
+			"versions": [
+				"v0.12.1.7"
+			],
+			"xbridge_conf": "eternity--v0.12.1.7.conf",
+			"wallet_conf": "eternity--v0.12.1.7.conf"
+		},
+		{
+			"blockchain": "Faircoin",
+			"ticker": "FAIR",
+			"ver_id": "faircoin--v2.0.0",
+			"ver_name": "Faircoin",
+			"conf_name": "faircoin.conf",
+			"dir_name_linux": "faircoin2",
+			"dir_name_mac": "faircoin2",
+			"dir_name_win": "faircoin2",
+			"repo_url": "https://github.com/faircoin/faircoin",
+			"versions": [
+				"v2.0.0",
+				"v2.0.1"
+			],
+			"xbridge_conf": "faircoin--v2.0.0.conf",
+			"wallet_conf": "faircoin--v2.0.0.conf"
+		},
+		{
+			"blockchain": "Flo",
+			"ticker": "FLO",
+			"ver_id": "flo--v0.15.0.3",
+			"ver_name": "Flo",
+			"conf_name": "flo.conf",
+			"dir_name_linux": "flo",
+			"dir_name_mac": "FLO",
+			"dir_name_win": "FLO",
+			"repo_url": "https://github.com/floblockchain/flo",
+			"versions": [
+				"v0.15.0.3",
+				"v0.15.1.0",
+				"v0.15.1.1"
+			],
+			"xbridge_conf": "flo--v0.15.0.3.conf",
+			"wallet_conf": "flo--v0.15.0.3.conf"
+		},
+		{
+			"blockchain": "FujiCoin",
+			"ticker": "FJC",
+			"ver_id": "fujicoin--fujicoin-v0.16.1",
+			"ver_name": "FujiCoin",
+			"conf_name": "fujicoin.conf",
+			"dir_name_linux": "fujicoin",
+			"dir_name_mac": "Fujicoin",
+			"dir_name_win": "Fujicoin",
+			"repo_url": "https://github.com/fujicoin/fujicoin",
+			"versions": [
+				"fujicoin-v0.16.1",
+				"fujicoin-v0.16.3"
+			],
+			"xbridge_conf": "fujicoin--fujicoin-v0.16.1.conf",
+			"wallet_conf": "fujicoin--fujicoin-v0.16.1.conf"
+		},
+		{
+			"blockchain": "Galactrum",
+			"ticker": "ORE",
+			"ver_id": "galactrum--v1.1.6",
+			"ver_name": "Galactrum",
+			"conf_name": "galactrum.conf",
+			"dir_name_linux": "galactrum",
+			"dir_name_mac": "Galactrum",
+			"dir_name_win": "Galactrum",
+			"repo_url": "https://github.com/galactrum/galactrum",
+			"versions": [
+				"v1.1.6",
+				"v1.2.1"
+			],
+			"xbridge_conf": "galactrum--v1.1.6.conf",
+			"wallet_conf": "galactrum--v1.1.6.conf"
+		},
+		{
+			"blockchain": "Galilel",
+			"ticker": "GALI",
+			"ver_id": "galilel--v3.2.0",
+			"ver_name": "Galilel",
+			"conf_name": "galilel.conf",
+			"dir_name_linux": "galilel",
+			"dir_name_mac": "Galilel",
+			"dir_name_win": "Galilel",
+			"repo_url": "https://github.com/Galilel-Project/galilel",
+			"versions": [
+				"v3.2.0"
+			],
+			"xbridge_conf": "galilel--v3.2.0.conf",
+			"wallet_conf": "galilel--v3.2.0.conf"
+		},
+		{
+			"blockchain": "GINcoin",
+			"ticker": "GIN",
+			"ver_id": "gincoin--1.1.0.0",
+			"ver_name": "GINcoin",
+			"conf_name": "gincoin.conf",
+			"dir_name_linux": "gincoincore",
+			"dir_name_mac": "GincoinCore",
+			"dir_name_win": "GincoinCore",
+			"repo_url": "https://github.com/gincoin-dev/gincoin-core",
+			"versions": [
+				"1.1.0.0"
+			],
+			"xbridge_conf": "gincoin--1.1.0.0.conf",
+			"wallet_conf": "gincoin--1.1.0.0.conf"
+		},
+		{
+			"blockchain": "GoByte",
+			"ticker": "GBX",
+			"ver_id": "gobyte--v0.12.2.4",
+			"ver_name": "GoByte",
+			"conf_name": "gobyte.conf",
+			"dir_name_linux": "gobytecore",
+			"dir_name_mac": "GoByteCore",
+			"dir_name_win": "GoByteCore",
+			"repo_url": "https://github.com/gobytecoin/gobyte",
+			"versions": [
+				"v0.12.2.4"
+			],
+			"xbridge_conf": "gobyte--v0.12.2.4.conf",
+			"wallet_conf": "gobyte--v0.12.2.4.conf"
+		},
+		{
+			"blockchain": "GravityCoin",
+			"ticker": "GXX",
+			"ver_id": "GravityCoin--4.0.5.0",
+			"ver_name": "GravityCoin",
+			"conf_name": "GravityCoin.conf",
+			"dir_name_linux": "GravityCoin",
+			"dir_name_mac": "GravityCoin",
+			"dir_name_win": "GravityCoin",
+			"repo_url": "https://github.com/GravityCoinOfficial/GravityCoin",
+			"versions": [
+				"4.0.5.0"
+			],
+			"xbridge_conf": "GravityCoin--4.0.5.0.conf",
+			"wallet_conf": "GravityCoin--4.0.5.0.conf"
+		},
+		{
+			"blockchain": "HASH",
+			"ticker": "HASH",
+			"ver_id": "hash--v1.4.0",
+			"ver_name": "HASH",
+			"conf_name": "hash.conf",
+			"dir_name_linux": "hash",
+			"dir_name_mac": "Hash",
+			"dir_name_win": "Hash",
+			"repo_url": "https://github.com/hashplatform/hash/",
+			"versions": [
+				"v1.4.0"
+			],
+			"xbridge_conf": "hash--v1.4.0.conf",
+			"wallet_conf": "hash--v1.4.0.conf"
+		},
+		{
+			"blockchain": "HTMLCoin",
+			"ticker": "HTML",
+			"ver_id": "htmlcoin--v2.0.3.0",
+			"ver_name": "HTMLCoin",
+			"conf_name": "htmlcoin.conf",
+			"dir_name_linux": "htmlcoin",
+			"dir_name_mac": "HTMLCOIN",
+			"dir_name_win": "HTMLCOIN",
+			"repo_url": "https://github.com/HTMLCOIN/HTMLCOIN",
+			"versions": [
+				"v2.0.3.0",
+				"v2.1.0.0",
+				"v2.1.1.0",
+				"v2.1.2",
+				"v2.2.0",
+				"v2.3.0"
+			],
+			"xbridge_conf": "htmlcoin--v2.0.3.0.conf",
+			"wallet_conf": "htmlcoin--v2.0.3.0.conf"
+		},
+		{
+			"blockchain": "Innova",
+			"ticker": "INN",
+			"ver_id": "innova--12.1.10",
+			"ver_name": "Innova",
+			"conf_name": "innova.conf",
+			"dir_name_linux": "innovacore",
+			"dir_name_mac": "InnovaCore",
+			"dir_name_win": "InnovaCore",
+			"repo_url": "https://github.com/innovacoin/innova",
+			"versions": [
+				"12.1.10"
+			],
+			"xbridge_conf": "innova--12.1.10.conf",
+			"wallet_conf": "innova--12.1.10.conf"
+		},
+		{
+			"blockchain": "Internet of People",
+			"ticker": "IOP",
+			"ver_id": "iop--v6.1.0",
+			"ver_name": "Internet of People",
+			"conf_name": "iop.conf",
+			"dir_name_linux": "iop",
+			"dir_name_mac": "IoP",
+			"dir_name_win": "IoP",
+			"repo_url": "https://github.com/Internet-of-People/iop-core",
+			"versions": [
+				"v6.1.0",
+				"v6.2.1",
+				"v6.2.2",
+				"v6.2.3"
+			],
+			"xbridge_conf": "iop--v6.2.3.conf",
+			"wallet_conf": "iop--v6.2.3.conf"
+		},
+		{
+			"blockchain": "Ixcoin",
+			"ticker": "IXC",
+			"ver_id": "ixcoin--v0.14.1",
+			"ver_name": "Ixcoin",
+			"conf_name": "ixcoin.conf",
+			"dir_name_linux": "ixcoin",
+			"dir_name_mac": "iXcoin",
+			"dir_name_win": "iXcoin",
+			"repo_url": "https://github.com/IXCore/IXCoin",
+			"versions": [
+				"v0.14.1"
+			],
+			"xbridge_conf": "ixcoin--v0.14.1.conf",
+			"wallet_conf": "ixcoin--v0.14.1.conf"
+		},
+		{
+			"blockchain": "Jiyo",
+			"ticker": "JIYOX",
+			"ver_id": "jiyo--v.2.1",
+			"ver_name": "Jiyo",
+			"conf_name": "jiyo.conf",
+			"dir_name_linux": "jiyo",
+			"dir_name_mac": "Jiyo",
+			"dir_name_win": "Jiyo",
+			"repo_url": "https://github.com/jiyocoin/jiyox",
+			"versions": [
+				"v.2.1"
+			],
+			"xbridge_conf": "jiyo--v.2.1.conf",
+			"wallet_conf": "jiyo--v.2.1.conf"
+		},
+		{
+			"blockchain": "Kalkulus",
+			"ticker": "KLKS",
+			"ver_id": "klks--v2.6.0",
+			"ver_name": "Kalkulus",
+			"conf_name": "klks.conf",
+			"dir_name_linux": "klks",
+			"dir_name_mac": "klks",
+			"dir_name_win": "klks",
+			"repo_url": "https://github.com/kalkulusteam/klks",
+			"versions": [
+				"v2.6.0",
+				"2.7.0",
+				"v2.8.0"
+			],
+			"xbridge_conf": "klks--v2.6.0.conf",
+			"wallet_conf": "klks--v2.6.0.conf"
+		},
+		{
+			"blockchain": "Kreds",
+			"ticker": "KREDS",
+			"ver_id": "kreds--v1.0.0.5.1",
+			"ver_name": "Kreds",
+			"conf_name": "kreds.conf",
+			"dir_name_linux": "kreds",
+			"dir_name_mac": "kreds",
+			"dir_name_win": "kreds",
+			"repo_url": "https://github.com/KredsBlockchain/kreds-core",
+			"versions": [
+				"v1.0.0.5.1",
+				"v1.0.0.6"
+			],
+			"xbridge_conf": "kreds--v1.0.0.5.1.conf",
+			"wallet_conf": "kreds--v1.0.0.5.1.conf"
+		},
+		{
+			"blockchain": "KZCash",
+			"ticker": "KZC",
+			"ver_id": "kzcash--v0.1.9.1",
+			"ver_name": "KZCash",
+			"conf_name": "kzcash.conf",
+			"dir_name_linux": "kzcash",
+			"dir_name_mac": "KZCash",
+			"dir_name_win": "KZCash",
+			"repo_url": "https://github.com/kzcashteam/kzcash",
+			"versions": [
+				"v0.1.9.1"
+			],
+			"xbridge_conf": "kzcash--v0.1.9.1.conf",
+			"wallet_conf": "kzcash--v0.1.9.1.conf"
+		},
+		{
+			"blockchain": "LBRY Credits",
+			"ticker": "LBC",
+			"ver_id": "lbrycrd--v0.12.2.1",
+			"ver_name": "LBRY Credits",
+			"conf_name": "lbrycrd.conf",
+			"dir_name_linux": "lbrycrd",
+			"dir_name_mac": "lbrycrd",
+			"dir_name_win": "lbrycrd",
+			"repo_url": "https://github.com/lbryio/lbrycrd",
+			"versions": [
+				"v0.12.2.1",
+				"v0.12.2.2",
+				"v0.12.2.3",
+				"v0.12.3.0",
+				"v0.12.3.1"
+			],
+			"xbridge_conf": "lbrycrd--v0.12.2.1.conf",
+			"wallet_conf": "lbrycrd--v0.12.2.1.conf"
+		},
+		{
+			"blockchain": "Light Pay Coin",
+			"ticker": "LPC",
+			"ver_id": "lightpaycoin--v1.0.0.0",
+			"ver_name": "Light Pay Coin",
+			"conf_name": "lightpaycoin.conf",
+			"dir_name_linux": "lightpaycoin",
+			"dir_name_mac": "LightPayCoin",
+			"dir_name_win": "LightPayCoin",
+			"repo_url": "https://github.com/lpcproject/LightPayCoin",
+			"versions": [
+				"v1.0.0.0",
+				"v1.0.0.1",
+				"v1.0.1.0"
+			],
+			"xbridge_conf": "lightpaycoin--v1.0.0.0.conf",
+			"wallet_conf": "lightpaycoin--v1.0.0.0.conf"
+		},
+		{
+			"blockchain": "Litecoin",
+			"ticker": "LTC",
+			"ver_id": "litecoin--v0.15.1",
+			"ver_name": "Litecoin v0.15.x",
+			"conf_name": "litecoin.conf",
+			"dir_name_linux": "litecoin",
+			"dir_name_mac": "Litecoin",
+			"dir_name_win": "Litecoin",
+			"repo_url": "https://github.com/litecoin-project/litecoin",
+			"versions": [
+				"v0.15.1"
+			],
+			"xbridge_conf": "litecoin--v0.15.1.conf",
+			"wallet_conf": "litecoin--v0.15.1.conf"
+		},
+		{
+			"blockchain": "Litecoin",
+			"ticker": "LTC",
+			"ver_id": "litecoin--v0.16.0",
+			"ver_name": "Litecoin v0.16.x",
+			"conf_name": "litecoin.conf",
+			"dir_name_linux": "litecoin",
+			"dir_name_mac": "Litecoin",
+			"dir_name_win": "Litecoin",
+			"repo_url": "https://github.com/litecoin-project/litecoin",
+			"versions": [
+				"v0.16.0",
+				"v0.16.2",
+				"v0.16.3"
+			],
+			"xbridge_conf": "litecoin--v0.15.1.conf",
+			"wallet_conf": "litecoin--v0.16.0.conf"
+		},
+		{
+			"blockchain": "Lynx",
+			"ticker": "LYNX",
+			"ver_id": "lynx--v0.15.1.0",
+			"ver_name": "Lynx",
+			"conf_name": "lynx.conf",
+			"dir_name_linux": "lynx",
+			"dir_name_mac": "Lynx",
+			"dir_name_win": "Lynx",
+			"repo_url": "https://github.com/doh9Xiet7weesh9va9th/lynx",
+			"versions": [
+				"v0.15.1.0",
+				"v0.16.3.4"
+			],
+			"xbridge_conf": "lynx--v0.15.1.0.conf",
+			"wallet_conf": "lynx--v0.15.1.0.conf"
+		},
+		{
+			"blockchain": "Machinecoin",
+			"ticker": "MAC",
+			"ver_id": "machinecoin--v0.16.1.4",
+			"ver_name": "Machinecoin",
+			"conf_name": "machinecoin.conf",
+			"dir_name_linux": "machinecoin",
+			"dir_name_mac": "Machinecoin",
+			"dir_name_win": "Machinecoin",
+			"repo_url": "https://github.com/machinecoin-project/machinecoin-core",
+			"versions": [
+				"v0.16.1.4",
+				"v0.16.2.1",
+				"v0.16.3"
+			],
+			"xbridge_conf": "machinecoin--v0.16.1.4.conf",
+			"wallet_conf": "machinecoin--v0.16.1.4.conf"
+		},
+		{
+			"blockchain": "Magna Coin",
+			"ticker": "MGN",
+			"ver_id": "mgn--v1.0.0",
+			"ver_name": "Magna Coin",
+			"conf_name": "mgn.conf",
+			"dir_name_linux": "MagnaCoin",
+			"dir_name_mac": "MagnaCoin",
+			"dir_name_win": "MagnaCoin",
+			"repo_url": "https://github.com/MagnaCoinProject/MagnaCoin",
+			"versions": [
+				"v1.0.0"
+			],
+			"xbridge_conf": "mgn--v1.0.0.conf",
+			"wallet_conf": "mgn--v1.0.0.conf"
+		},
+		{
+			"blockchain": "MinexCoin",
+			"ticker": "MNX",
+			"ver_id": "minexcoin--v1.3.1",
+			"ver_name": "MinexCoin",
+			"conf_name": "minexcoin.conf",
+			"dir_name_linux": "Minexcoin",
+			"dir_name_mac": "Minexcoin",
+			"dir_name_win": "Minexcoin",
+			"repo_url": "https://github.com/minexcoin/minexcoin",
+			"versions": [
+				"v1.3.1"
+			],
+			"xbridge_conf": "minexcoin--v1.3.1.conf",
+			"wallet_conf": "minexcoin--v1.3.1.conf"
+		},
+		{
+			"blockchain": "MktCoin",
+			"ticker": "MLM",
+			"ver_id": "mktcoin--0.14.3",
+			"ver_name": "MktCoin",
+			"conf_name": "mktcoin.conf",
+			"dir_name_linux": "mktcoin",
+			"dir_name_mac": "MKTcoin",
+			"dir_name_win": "MKTcoin",
+			"repo_url": "https://github.com/Mktcoin-official/Mktcoin",
+			"versions": [
+				"0.14.3",
+				"0.14.3.1"
+			],
+			"xbridge_conf": "mktcoin--0.14.3.conf",
+			"wallet_conf": "mktcoin--0.14.3.conf"
+		},
+		{
+			"blockchain": "MonaCoin",
+			"ticker": "MONA",
+			"ver_id": "monacoin--monacoin-0.15.1",
+			"ver_name": "MonaCoin v0.15.x",
+			"conf_name": "monacoin.conf",
+			"dir_name_linux": "monacoin",
+			"dir_name_mac": "Monacoin",
+			"dir_name_win": "Monacoin",
+			"repo_url": "https://github.com/monacoinproject/monacoin",
+			"versions": [
+				"monacoin-0.15.1"
+			],
+			"xbridge_conf": "monacoin--monacoin-0.15.1.conf",
+			"wallet_conf": "monacoin--monacoin-0.15.1.conf"
+		},
+		{
+			"blockchain": "MonaCoin",
+			"ticker": "MONA",
+			"ver_id": "monacoin--monacoin-0.16.2",
+			"ver_name": "MonaCoin v0.16.x",
+			"conf_name": "monacoin.conf",
+			"dir_name_linux": "monacoin",
+			"dir_name_mac": "Monacoin",
+			"dir_name_win": "Monacoin",
+			"repo_url": "https://github.com/monacoinproject/monacoin",
+			"versions": [
+				"monacoin-0.16.2",
+				"monacoin-0.16.3"
+			],
+			"xbridge_conf": "monacoin--monacoin-0.15.1.conf",
+			"wallet_conf": "monacoin--monacoin-0.16.2.conf"
+		},
+		{
+			"blockchain": "MonetaryUnit",
+			"ticker": "MUE",
+			"ver_id": "monetaryunit--v2.0.2",
+			"ver_name": "MonetaryUnit",
+			"conf_name": "monetaryunit.conf",
+			"dir_name_linux": "monetaryunit",
+			"dir_name_mac": "MonetaryUnitCore",
+			"dir_name_win": "MonetaryUnitCore",
+			"repo_url": "https://github.com/muecoin/MUE",
+			"versions": [
+				"v2.0.2",
+				"v2.1.2"
+			],
+			"xbridge_conf": "monetaryunit--v2.0.2.conf",
+			"wallet_conf": "monetaryunit--v2.0.2.conf"
+		},
+		{
+			"blockchain": "Monoeci",
+			"ticker": "XMCC",
+			"ver_id": "monoeci--v0.12.2.3",
+			"ver_name": "Monoeci",
+			"conf_name": "monoeci.conf",
+			"dir_name_linux": "monoeciCore",
+			"dir_name_mac": "monoeciCore",
+			"dir_name_win": "monoeciCore",
+			"repo_url": "https://github.com/monacocoin-net/monoeci-core",
+			"versions": [
+				"v0.12.2.3"
+			],
+			"xbridge_conf": "monoeci--v0.12.2.3.conf",
+			"wallet_conf": "monoeci--v0.12.2.3.conf"
+		},
+		{
+			"blockchain": "Myriad",
+			"ticker": "XMY",
+			"ver_id": "myriadcoin--v0.14.2.5",
+			"ver_name": "Myriad",
+			"conf_name": "myriadcoin.conf",
+			"dir_name_linux": "myriadcoin",
+			"dir_name_mac": "Myriadcoin",
+			"dir_name_win": "Myriadcoin",
+			"repo_url": "https://github.com/myriadteam/myriadcoin",
+			"versions": [
+				"v0.14.2.5",
+				"v0.14.3.0",
+				"v0.14.4.0",
+				"v0.14.4.1"
+			],
+			"xbridge_conf": "myriadcoin--v0.14.2.5.conf",
+			"wallet_conf": "myriadcoin--v0.14.2.5.conf"
+		},
+		{
+			"blockchain": "Myriad",
+			"ticker": "XMY",
+			"ver_id": "myriadcoin--v0.16.3.0",
+			"ver_name": "Myriad v0.16.3.x",
+			"conf_name": "myriadcoin.conf",
+			"dir_name_linux": "myriadcoin",
+			"dir_name_mac": "Myriadcoin",
+			"dir_name_win": "Myriadcoin",
+			"repo_url": "https://github.com/myriadteam/myriadcoin",
+			"versions": [
+				"v0.16.3.0"
+			],
+			"xbridge_conf": "myriadcoin--v0.14.2.5.conf",
+			"wallet_conf": "myriadcoin--v0.16.3.0.conf"
+		},
+		{
+			"blockchain": "Namecoin",
+			"ticker": "NMC",
+			"ver_id": "namecoin--nc0.13.99-name-tab-beta1",
+			"ver_name": "Namecoin",
+			"conf_name": "namecoin.conf",
+			"dir_name_linux": "namecoin",
+			"dir_name_mac": "Namecoin",
+			"dir_name_win": "Namecoin",
+			"repo_url": "https://github.com/namecoin/namecoin-core",
+			"versions": [
+				"nc0.13.99-name-tab-beta1"
+			],
+			"xbridge_conf": "namecoin--nc0.13.99-name-tab-beta1.conf",
+			"wallet_conf": "namecoin--nc0.13.99-name-tab-beta1.conf"
+		},
+		{
+			"blockchain": "Nix",
+			"ticker": "NIX",
+			"ver_id": "nix--v2.2.0",
+			"ver_name": "Nix",
+			"conf_name": "nix.conf",
+			"dir_name_linux": "nix",
+			"dir_name_mac": "nix",
+			"dir_name_win": "nix",
+			"repo_url": "https://github.com/NixPlatform/NixCore",
+			"versions": [
+				"v2.2.0",
+				"v2.2.0.1"
+			],
+			"xbridge_conf": "nix--v2.0.3.conf",
+			"wallet_conf": "nix--v2.0.3.conf"
+		},
+		{
+			"blockchain": "Nodium",
+			"ticker": "XN",
+			"ver_id": "nodium--3.0.6",
+			"ver_name": "Nodium",
+			"conf_name": "nodium.conf",
+			"dir_name_linux": "Nodium",
+			"dir_name_mac": "Nodium",
+			"dir_name_win": "Nodium",
+			"repo_url": "https://github.com/nodiumproject/zNodium",
+			"versions": [
+				"3.0.6"
+			],
+			"xbridge_conf": "nodium--3.0.6.conf",
+			"wallet_conf": "nodium--3.0.6.conf"
+		},
+		{
+			"blockchain": "Noir",
+			"ticker": "NOR",
+			"ver_id": "noir--v1.0.0.2",
+			"ver_name": "Noir",
+			"conf_name": "noir.conf",
+			"dir_name_linux": "noir",
+			"dir_name_mac": "noir",
+			"dir_name_win": "noir",
+			"repo_url": "https://github.com/noirofficial/noir",
+			"versions": [
+				"v1.0.0.2",
+				"v1.0.0.3"
+			],
+			"xbridge_conf": "noir--v1.0.0.2.conf",
+			"wallet_conf": "noir--v1.0.0.2.conf"
+		},
+		{
+			"blockchain": "Northern",
+			"ticker": "NORT",
+			"ver_id": "northern--1.0.0",
+			"ver_name": "Northern",
+			"conf_name": "northern.conf",
+			"dir_name_linux": "northern",
+			"dir_name_mac": "Northern",
+			"dir_name_win": "Northern",
+			"repo_url": "https://github.com/zabtc/Northern",
+			"versions": [
+				"1.0.0",
+				"2.2.0",
+				"2.3.0",
+				"2.4.0"
+			],
+			"xbridge_conf": "northern--1.0.0.conf",
+			"wallet_conf": "northern--1.0.0.conf"
+		},
+		{
+			"blockchain": "NyxCoin",
+			"ticker": "NYX",
+			"ver_id": "nyx--v2.0.0.0",
+			"ver_name": "NyxCoin",
+			"conf_name": "nyx.conf",
+			"dir_name_linux": "nyx",
+			"dir_name_mac": "Nyx",
+			"dir_name_win": "NYX",
+			"repo_url": "https://github.com/nyxpay/nyx",
+			"versions": [
+				"v2.0.0.0"
+			],
+			"xbridge_conf": "nyx--v2.0.0.0.conf",
+			"wallet_conf": "nyx--v2.0.0.0.conf"
+		},
+		{
+			"blockchain": "Odin",
+			"ticker": "ODIN",
+			"ver_id": "odin--v1.4.2",
+			"ver_name": "Odin",
+			"conf_name": "odin.conf",
+			"dir_name_linux": "odin",
+			"dir_name_mac": "ODIN",
+			"dir_name_win": "ODIN",
+			"repo_url": "https://github.com/odinblockchain/Odin",
+			"versions": [
+				"v1.4.2"
+			],
+			"xbridge_conf": "odin--v1.4.2.conf",
+			"wallet_conf": "odin--v1.4.2.conf"
+		},
+		{
+			"blockchain": "Ohmcoin",
+			"ticker": "OHMC",
+			"ver_id": "ohmc--2.3.1",
+			"ver_name": "Ohmcoin",
+			"conf_name": "ohmc.conf",
+			"dir_name_linux": "ohmc",
+			"dir_name_mac": "OHMC",
+			"dir_name_win": "OHMC",
+			"repo_url": "https://github.com/theohmproject/OhmCoin",
+			"versions": [
+				"2.3.1",
+				"2.3.2",
+				"2.3.2.1",
+				"2.4.0.0"
+			],
+			"xbridge_conf": "ohmc--2.3.1.conf",
+			"wallet_conf": "ohmc--2.3.1.conf"
+		},
+		{
+			"blockchain": "PACcoin",
+			"ticker": "$PAC",
+			"ver_id": "paccoin--v0.12.5.1",
+			"ver_name": "PACcoin",
+			"conf_name": "paccoin.conf",
+			"dir_name_linux": "paccoincore",
+			"dir_name_mac": "PaccoinCore",
+			"dir_name_win": "PaccoinCore",
+			"repo_url": "https://github.com/PACCommunity/PAC",
+			"versions": [
+				"v0.12.5.1"
+			],
+			"xbridge_conf": "paccoin--v0.12.5.1.conf",
+			"wallet_conf": "paccoin--v0.12.5.1.conf"
+		},
+		{
+			"blockchain": "Phore",
+			"ticker": "PHR",
+			"ver_id": "phore--v1.3.3.1",
+			"ver_name": "Phore",
+			"conf_name": "phore.conf",
+			"dir_name_linux": "phore",
+			"dir_name_mac": "Phore",
+			"dir_name_win": "Phore",
+			"repo_url": "https://github.com/phoreproject/Phore",
+			"versions": [
+				"v1.3.3.1",
+				"v1.4.4",
+				"v1.4.5",
+				"v1.5.0",
+				"v1.5.1",
+				"v1.6.0"
+			],
+			"xbridge_conf": "phore--v1.3.3.1.conf",
+			"wallet_conf": "phore--v1.3.3.1.conf"
+		},
+		{
+			"blockchain": "PIVX",
+			"ticker": "PIVX",
+			"ver_id": "pivx--v3.1.0.2",
+			"ver_name": "PIVX",
+			"conf_name": "pivx.conf",
+			"dir_name_linux": "pivx",
+			"dir_name_mac": "PIVX",
+			"dir_name_win": "PIVX",
+			"repo_url": "https://github.com/PIVX-Project/PIVX",
+			"versions": [
+				"v3.1.0.2",
+				"v3.1.1"
+			],
+			"xbridge_conf": "pivx--v3.1.0.2.conf",
+			"wallet_conf": "pivx--v3.1.0.2.conf"
+		},
+		{
+			"blockchain": "Polis",
+			"ticker": "POLIS",
+			"ver_id": "polis--v1.3.1",
+			"ver_name": "Polis",
+			"conf_name": "polis.conf",
+			"dir_name_linux": "poliscore",
+			"dir_name_mac": "PolisCore",
+			"dir_name_win": "PolisCore",
+			"repo_url": "https://github.com/polispay/polis",
+			"versions": [
+				"v1.3.1",
+				"v1.4.0",
+				"v1.4.1",
+				"v1.4.2",
+				"v1.4.3",
+				"v1.4.4",
+				"v1.4.5",
+				"v1.4.6",
+				"v1.4.7",
+				"v1.4.8",
+				"v1.4.8.1"
+			],
+			"xbridge_conf": "polis--v1.3.1.conf",
+			"wallet_conf": "polis--v1.3.1.conf"
+		},
+		{
+			"blockchain": "Pura",
+			"ticker": "PURA",
+			"ver_id": "pura--v1.0.0.0",
+			"ver_name": "Pura",
+			"conf_name": "pura.conf",
+			"dir_name_linux": "pura",
+			"dir_name_mac": "Pura",
+			"dir_name_win": "Pura",
+			"repo_url": "https://github.com/puracore/pura",
+			"versions": [
+				"v1.0.0.0",
+				"v1.3.7"
+			],
+			"xbridge_conf": "pura--v1.0.0.0.conf",
+			"wallet_conf": "pura--v1.0.0.0.conf"
+		},
+		{
+			"blockchain": "Qbic",
+			"ticker": "QBIC",
+			"ver_id": "qbic--v1.0",
+			"ver_name": "Qbic",
+			"conf_name": "qbic.conf",
+			"dir_name_linux": "qbiccore",
+			"dir_name_mac": "QbicCore",
+			"dir_name_win": "QbicCore",
+			"repo_url": "https://github.com/qbic-platform/qbic",
+			"versions": [
+				"v1.0"
+			],
+			"xbridge_conf": "qbic--v1.0.conf",
+			"wallet_conf": "qbic--v1.0.conf"
+		},
+		{
+			"blockchain": "Qtum",
+			"ticker": "QTUM",
+			"ver_id": "qtum--mainnet-ignition-v0.15.2",
+			"ver_name": "Qtum v0.15.x - v0.16.x",
+			"conf_name": "qtum.conf",
+			"dir_name_linux": "qtum",
+			"dir_name_mac": "Qtum",
+			"dir_name_win": "Qtum",
+			"repo_url": "https://github.com/qtumproject/qtum",
+			"versions": [
+				"mainnet-ignition-v0.15.2",
+				"mainnet-ignition-v0.15.3",
+				"mainnet-ignition-v0.16.0",
+				"mainnet-ignition-v0.16.1",
+				"mainnet-ignition-v0.16.2"
+			],
+			"xbridge_conf": "qtum--mainnet-ignition-v0.15.2.conf",
+			"wallet_conf": "qtum--mainnet-ignition-v0.15.2.conf"
+		},
+		{
+			"blockchain": "Qtum",
+			"ticker": "QTUM",
+			"ver_id": "qtum--mainnet-ignition-v0.17.1",
+			"ver_name": "Qtum v0.17.x",
+			"conf_name": "qtum.conf",
+			"dir_name_linux": "qtum",
+			"dir_name_mac": "Qtum",
+			"dir_name_win": "Qtum",
+			"repo_url": "https://github.com/qtumproject/qtum",
+			"versions": [
+				"mainnet-ignition-v0.17.1"
+			],
+			"xbridge_conf": "qtum--mainnet-ignition-v0.15.2.conf",
+			"wallet_conf": "qtum--mainnet-ignition-v0.17.1.conf"
+		},
+		{
+			"blockchain": "Ravencoin",
+			"ticker": "RVN",
+			"ver_id": "raven--v0.15.99.0",
+			"ver_name": "Ravencoin",
+			"conf_name": "raven.conf",
+			"dir_name_linux": "raven",
+			"dir_name_mac": "Raven",
+			"dir_name_win": "Raven",
+			"repo_url": "https://github.com/RavenProject/Ravencoin",
+			"versions": [
+				"v0.15.99.0",
+				"v2.0.4",
+				"v2.0.4.1",
+				"v2.1.0",
+				"v2.1.1",
+				"v2.1.2",
+				"v2.1.3",
+				"2.2.0"
+			],
+			"xbridge_conf": "raven--v0.15.99.0.conf",
+			"wallet_conf": "raven--v0.15.99.0.conf"
+		},
+		{
+			"blockchain": "Secure Cloud Net",
+			"ticker": "SCN",
+			"ver_id": "securecloud--v2.4.3",
+			"ver_name": "Secure Cloud Net",
+			"conf_name": "securecloud.conf",
+			"dir_name_linux": "securecloud",
+			"dir_name_mac": "SecureCloud",
+			"dir_name_win": "SecureCloud",
+			"repo_url": "https://github.com/securecloudnet/SecureCloud",
+			"versions": [
+				"v2.4.3"
+			],
+			"xbridge_conf": "securecloud--v2.4.3.conf",
+			"wallet_conf": "securecloud--v2.4.3.conf"
+		},
+		{
+			"blockchain": "Sequence",
+			"ticker": "SEQ",
+			"ver_id": "sequence--v1.3.0.0",
+			"ver_name": "Sequence",
+			"conf_name": "sequence.conf",
+			"dir_name_linux": "sequence",
+			"dir_name_mac": "sequence",
+			"dir_name_win": "sequence",
+			"repo_url": "https://github.com/duality-solutions/Sequence",
+			"versions": [
+				"v1.3.0.0"
+			],
+			"xbridge_conf": "sequence--v1.3.0.0.conf",
+			"wallet_conf": "sequence--v1.3.0.0.conf"
+		},
+		{
+			"blockchain": "Shekel",
+			"ticker": "JEW",
+			"ver_id": "shekel--1.4.0",
+			"ver_name": "Shekel",
+			"conf_name": "shekel.conf",
+			"dir_name_linux": "shekel",
+			"dir_name_mac": "Shekel",
+			"dir_name_win": "Shekel",
+			"repo_url": "https://github.com/shekeltechnologies/JewNew",
+			"versions": [
+				"1.4.0"
+			],
+			"xbridge_conf": "shekel--1.4.0.conf",
+			"wallet_conf": "shekel--1.4.0.conf"
+		},
+		{
+			"blockchain": "Sibcoin",
+			"ticker": "SIB",
+			"ver_id": "sibcoin--v0.16.1.3",
+			"ver_name": "Sibcoin",
+			"conf_name": "sibcoin.conf",
+			"dir_name_linux": "sibcoin",
+			"dir_name_mac": "Sibcoin",
+			"dir_name_win": "Sibcoin",
+			"repo_url": "https://github.com/ivansib/sibcoin",
+			"versions": [
+				"v0.16.1.3",
+				"v0.16.2.0",
+				"v0.16.3.0"
+			],
+			"xbridge_conf": "sibcoin--v0.16.1.3.conf",
+			"wallet_conf": "sibcoin--v0.16.1.3.conf"
+		},
+		{
+			"blockchain": "Social Send",
+			"ticker": "SEND",
+			"ver_id": "send--v1.1.0.0",
+			"ver_name": "Social Send",
+			"conf_name": "send.conf",
+			"dir_name_linux": "send",
+			"dir_name_mac": "SEND",
+			"dir_name_win": "SEND",
+			"repo_url": "https://github.com/SocialSend/SocialSend",
+			"versions": [
+				"v1.1.0.0",
+				"V1.2.0.1",
+				"v1.2.0.0"
+			],
+			"xbridge_conf": "send--v1.1.0.0.conf",
+			"wallet_conf": "send--v1.1.0.0.conf"
+		},
+		{
+			"blockchain": "Solaris",
+			"ticker": "XLR",
+			"ver_id": "solaris--v2.8.0.0",
+			"ver_name": "Solaris",
+			"conf_name": "solaris.conf",
+			"dir_name_linux": "solaris",
+			"dir_name_mac": "Solaris",
+			"dir_name_win": "Solaris",
+			"repo_url": "https://github.com/Solaris-Project/Solaris",
+			"versions": [
+				"v2.8.0.0",
+				"v2.8.1.0"
+			],
+			"xbridge_conf": "solaris--v2.8.0.0.conf",
+			"wallet_conf": "solaris--v2.8.0.0.conf"
+		},
+		{
+			"blockchain": "SparksPay",
+			"ticker": "SPK",
+			"ver_id": "sparks--v0.12.3.2",
+			"ver_name": "Sparks",
+			"conf_name": "sparks.conf",
+			"dir_name_linux": "sparkscore",
+			"dir_name_mac": "SparksCore",
+			"dir_name_win": "SparksCore",
+			"repo_url": "https://github.com/SparksReborn/sparkspay",
+			"versions": [
+				"v0.12.3.2"
+			],
+			"xbridge_conf": "sparks--v0.12.3.2.conf",
+			"wallet_conf": "sparks--v0.12.3.2.conf"
+		},
+		{
+			"blockchain": "Stakenet",
+			"ticker": "XSN",
+			"ver_id": "xsn--v1.0.9",
+			"ver_name": "Stakenet",
+			"conf_name": "xsn.conf",
+			"dir_name_linux": "xsncore",
+			"dir_name_mac": "XSNCore",
+			"dir_name_win": "XSNCore",
+			"repo_url": "https://github.com/X9Developers/XSN",
+			"versions": [
+				"v1.0.9"
+			],
+			"xbridge_conf": "xsn--v1.0.9.conf",
+			"wallet_conf": "xsn--v1.0.9.conf"
+		},
+		{
+			"blockchain": "STRAKS",
+			"ticker": "STAK",
+			"ver_id": "straks--1.14.7.3",
+			"ver_name": "STRAKS",
+			"conf_name": "straks.conf",
+			"dir_name_linux": "straks",
+			"dir_name_mac": "straks",
+			"dir_name_win": "straks",
+			"repo_url": "https://github.com/straks/straks",
+			"versions": [
+				"1.14.7.3",
+				"1.14.7.4"
+			],
+			"xbridge_conf": "straks--1.14.7.3.conf",
+			"wallet_conf": "straks--1.14.7.3.conf"
+		},
+		{
+			"blockchain": "Sucre",
+			"ticker": "SUCR",
+			"ver_id": "sucr--v0.12.2.1",
+			"ver_name": "Sucre",
+			"conf_name": "sucr.conf",
+			"dir_name_linux": "sucrcore",
+			"dir_name_mac": "SucrCore",
+			"dir_name_win": "SucrCore",
+			"repo_url": "https://github.com/sucremoneda/SucreCore",
+			"versions": [
+				"v0.12.2.1"
+			],
+			"xbridge_conf": "sucr--v0.12.2.1.conf",
+			"wallet_conf": "sucr--v0.12.2.1.conf"
+		},
+		{
+			"blockchain": "Syndicate",
+			"ticker": "SYNX",
+			"ver_id": "syndicate--v2.0.0",
+			"ver_name": "Syndicate",
+			"conf_name": "syndicate.conf",
+			"dir_name_linux": "syndicate",
+			"dir_name_mac": "Syndicate",
+			"dir_name_win": "Syndicate",
+			"repo_url": "https://github.com/SyndicateLtd/SyndicateQT",
+			"versions": [
+				"v2.0.0",
+				"x2.1.0"
+			],
+			"xbridge_conf": "syndicate--v2.0.0.conf",
+			"wallet_conf": "syndicate--v2.0.0.conf"
+		},
+		{
+			"blockchain": "Syscoin",
+			"ticker": "SYS",
+			"ver_id": "syscoin--3.0.5.0",
+			"ver_name": "Syscoin 3.0.5.0+",
+			"conf_name": "syscoin.conf",
+			"dir_name_linux": "syscoincore",
+			"dir_name_mac": "SyscoinCore",
+			"dir_name_win": "SyscoinCore",
+			"repo_url": "https://github.com/syscoin/syscoin",
+			"versions": [
+				"3.0.5.0",
+				"3.1.3.0",
+				"3.1.4.0",
+				"3.2.0.0"
+			],
+			"xbridge_conf": "syscoin--3.0.5.0.conf",
+			"wallet_conf": "syscoin--3.0.5.0.conf"
+		},
+		{
+			"blockchain": "Terracoin",
+			"ticker": "TRC",
+			"ver_id": "terracoin--v0.12.1.8",
+			"ver_name": "Terracoin",
+			"conf_name": "terracoin.conf",
+			"dir_name_linux": "terracoincore",
+			"dir_name_mac": "TerracoinCore",
+			"dir_name_win": "TerracoinCore",
+			"repo_url": "https://github.com/terracoin/terracoin",
+			"versions": [
+				"v0.12.1.8",
+				"v0.12.2.3",
+				"v0.12.2.4"
+			],
+			"xbridge_conf": "terracoin--v0.12.1.8.conf",
+			"wallet_conf": "terracoin--v0.12.1.8.conf"
+		},
+		{
+			"blockchain": "Tribe",
+			"ticker": "TRB",
+			"ver_id": "tribe--v1.0.0",
+			"ver_name": "Tribe",
+			"conf_name": "tribe.conf",
+			"dir_name_linux": "tribe",
+			"dir_name_mac": "tribe",
+			"dir_name_win": "tribe",
+			"repo_url": "https://github.com/TribeCrypto/tribe",
+			"versions": [
+				"v1.0.0"
+			],
+			"xbridge_conf": "tribe--v1.0.0.conf",
+			"wallet_conf": "tribe--v1.0.0.conf"
+		},
+		{
+			"blockchain": "Ultranatum",
+			"ticker": "ULTRA",
+			"ver_id": "ultranatum--1.1.0.2",
+			"ver_name": "Ultranatum",
+			"conf_name": "ultranatum.conf",
+			"dir_name_linux": "ultranatumcore",
+			"dir_name_mac": "UltranatumCore",
+			"dir_name_win": "UltranatumCore",
+			"repo_url": "https://github.com/ultranatum/ultranatum",
+			"versions": [
+				"1.1.0.2"
+			],
+			"xbridge_conf": "ultranatum--1.1.0.2.conf",
+			"wallet_conf": "ultranatum--1.1.0.2.conf"
+		},
+		{
+			"blockchain": "UnbreakableCoin",
+			"ticker": "UNB",
+			"ver_id": "unbreakablecoin--v0.10.3.0",
+			"ver_name": "UnbreakableCoin",
+			"conf_name": "unbreakablecoin.conf",
+			"dir_name_linux": "unbreakablecoin",
+			"dir_name_mac": "Unbreakablecoin",
+			"dir_name_win": "Unbreakablecoin",
+			"repo_url": "https://github.com/jimblasko/UnbreakableCoin-master",
+			"versions": [
+				"v0.10.3.0"
+			],
+			"xbridge_conf": "unbreakablecoin--v0.10.3.0.conf",
+			"wallet_conf": "unbreakablecoin--v0.10.3.0.conf"
+		},
+		{
+			"blockchain": "Uniform Fiscal Object",
+			"ticker": "UFO",
+			"ver_id": "ufocoin--v0.16.1",
+			"ver_name": "Uniform Fiscal Object v0.16.x",
+			"conf_name": "ufocoin.conf",
+			"dir_name_linux": "ufo",
+			"dir_name_mac": "UFO",
+			"dir_name_win": "UFO",
+			"repo_url": "https://github.com/fiscalobject/ufo",
+			"versions": [
+				"v0.16.1"
+			],
+			"xbridge_conf": "ufocoin--v0.16.1.conf",
+			"wallet_conf": "ufocoin--v0.16.1.conf"
+		},
+		{
+			"blockchain": "Uniform Fiscal Object",
+			"ticker": "UFO",
+			"ver_id": "ufocoin--v0.17.0",
+			"ver_name": "Uniform Fiscal Object v0.17.x",
+			"conf_name": "ufocoin.conf",
+			"dir_name_linux": "ufo",
+			"dir_name_mac": "UFO",
+			"dir_name_win": "UFO",
+			"repo_url": "https://github.com/fiscalobject/ufo",
+			"versions": [
+				"v0.17.0"
+			],
+			"xbridge_conf": "ufocoin--v0.16.1.conf",
+			"wallet_conf": "ufocoin--v0.17.0.conf"
+		},
+		{
+			"blockchain": "Unobtanium",
+			"ticker": "UNO",
+			"ver_id": "unobtanium--v0.10.1.1",
+			"ver_name": "Unobtanium",
+			"conf_name": "unobtanium.conf",
+			"dir_name_linux": "unobtanium",
+			"dir_name_mac": "Unobtanium",
+			"dir_name_win": "Unobtanium",
+			"repo_url": "https://github.com/unobtanium-official/Unobtanium",
+			"versions": [
+				"v0.10.1.1",
+				"v0.10.4.0"
+			],
+			"xbridge_conf": "unobtanium--v0.10.1.1.conf",
+			"wallet_conf": "unobtanium--v0.10.1.1.conf"
+		},
+		{
+			"blockchain": "Vertcoin",
+			"ticker": "VTC",
+			"ver_id": "vertcoin--0.14.0",
+			"ver_name": "Vertcoin",
+			"conf_name": "vertcoin.conf",
+			"dir_name_linux": "vertcoin",
+			"dir_name_mac": "Vertcoin",
+			"dir_name_win": "Vertcoin",
+			"repo_url": "https://github.com/vertcoin-project/vertcoin-core",
+			"versions": [
+				"0.14.0"
+			],
+			"xbridge_conf": "vertcoin--0.12.0.conf",
+			"wallet_conf": "vertcoin--0.13.0.conf"
+		},
+		{
+			"blockchain": "Viacoin",
+			"ticker": "VIA",
+			"ver_id": "viacoin--v0.15.1",
+			"ver_name": "Viacoin",
+			"conf_name": "viacoin.conf",
+			"dir_name_linux": "viacoin",
+			"dir_name_mac": "Viacoin",
+			"dir_name_win": "Viacoin",
+			"repo_url": "https://github.com/viacoin/viacoin",
+			"versions": [
+				"v0.15.1",
+				"v0.15.2"
+			],
+			"xbridge_conf": "viacoin--v0.15.1.conf",
+			"wallet_conf": "viacoin--v0.15.1.conf"
+		},
+		{
+			"blockchain": "Vitae",
+			"ticker": "VITAE",
+			"ver_id": "vitae--v4.1.0.1",
+			"ver_name": "Vitae",
+			"conf_name": "vitae.conf",
+			"dir_name_linux": "vitae",
+			"dir_name_mac": "VITAE",
+			"dir_name_win": "VITAE",
+			"repo_url": "https://github.com/VitaeTeam/Vitae",
+			"versions": [
+				"v4.1.0.1",
+				"4.2.0",
+				"Vitae-4.2.1",
+				"4.3.0"
+			],
+			"xbridge_conf": "vitae--v4.1.0.1.conf",
+			"wallet_conf": "vitae--v4.1.0.1.conf"
+		},
+		{
+			"blockchain": "VIVO",
+			"ticker": "VIVO",
+			"ver_id": "vivo--v0.12.1.8",
+			"ver_name": "VIVO",
+			"conf_name": "vivo.conf",
+			"dir_name_linux": "vivocore",
+			"dir_name_mac": "VivoCore",
+			"dir_name_win": "VivoCore",
+			"repo_url": "https://github.com/vivocoin/vivo",
+			"versions": [
+				"v0.12.1.8",
+				"v0.12.1.9",
+				"v0.12.1.12",
+				"v0.12.1.14"
+			],
+			"xbridge_conf": "vivo--v0.12.1.8.conf",
+			"wallet_conf": "vivo--v0.12.1.8.conf"
+		},
+		{
+			"blockchain": "Vsync",
+			"ticker": "VSX",
+			"ver_id": "vsync--v3.8.5.0",
+			"ver_name": "Vsync",
+			"conf_name": "vsync.conf",
+			"dir_name_linux": "vsync",
+			"dir_name_mac": "Vsync",
+			"dir_name_win": "Vsync",
+			"repo_url": "https://github.com/VsyncCrypto/VSX",
+			"versions": [
+				"v3.8.5.0"
+			],
+			"xbridge_conf": "vsync--v3.8.5.0.conf",
+			"wallet_conf": "vsync--v3.8.5.0.conf"
+		},
+		{
+			"blockchain": "Vyigrat",
+			"ticker": "VYI",
+			"ver_id": "vyigrat--v1.3.0.0",
+			"ver_name": "Vyigrat",
+			"conf_name": "vyigrat.conf",
+			"dir_name_linux": "vyigrat",
+			"dir_name_mac": "Vyigrat",
+			"dir_name_win": "Vyigrat",
+			"repo_url": "https://github.com/vyigrat/vyigrat",
+			"versions": [
+				"v1.3.0.0"
+			],
+			"xbridge_conf": "vyigrat--v1.3.0.0.conf",
+			"wallet_conf": "vyigrat--v1.3.0.0.conf"
+		},
+		{
+			"blockchain": "Wagerr",
+			"ticker": "WGR",
+			"ver_id": "wagerr--1.5.0",
+			"ver_name": "Wagerr",
+			"conf_name": "wagerr.conf",
+			"dir_name_linux": "wagerr",
+			"dir_name_mac": "Wagerr",
+			"dir_name_win": "Wagerr",
+			"repo_url": "https://github.com/wagerr/wagerr",
+			"versions": [
+				"1.5.0",
+				"v2.0.0",
+				"v2.0.1",
+				"v2.0.2"
+			],
+			"xbridge_conf": "wagerr--1.5.0.conf",
+			"wallet_conf": "wagerr--1.5.0.conf"
+		},
+		{
+			"blockchain": "XCurrency",
+			"ticker": "XC",
+			"ver_id": "xcurrency--v3.0.05",
+			"ver_name": "XCurrency",
+			"conf_name": "xcurrency.conf",
+			"dir_name_linux": "xc3",
+			"dir_name_mac": "XC3",
+			"dir_name_win": "XC3",
+			"repo_url": "https://github.com/XCurrency/xc",
+			"versions": [
+				"v3.0.05"
+			],
+			"xbridge_conf": "xcurrency--v3.0.05.conf",
+			"wallet_conf": "xcurrency--v3.0.05.conf"
+		},
+		{
+			"blockchain": "ZCoin",
+			"ticker": "XZC",
+			"ver_id": "zcoin--v0.13.6.4",
+			"ver_name": "ZCoin",
+			"conf_name": "zcoin.conf",
+			"dir_name_linux": "zcoin",
+			"dir_name_mac": "zcoin",
+			"dir_name_win": "zcoin",
+			"repo_url": "https://github.com/zcoinofficial/zcoin",
+			"versions": [
+				"v0.13.6.4",
+				"v0.13.6.6",
+				"v0.13.6.7",
+				"v0.13.6.8",
+				"v0.13.6.9",
+				"v0.13.7.1",
+				"v0.13.7.2",
+				"v0.13.7.3",
+				"v0.13.7.4",
+				"v0.13.7.5",
+				"v0.13.7.6",
+				"v0.13.7.7"
+			],
+			"xbridge_conf": "zcoin--v0.13.6.4.conf",
+			"wallet_conf": "zcoin--v0.13.6.4.conf"
+		}
+	],
+	"walletConfs": {
+		"ColossusXT--v1.0.5.conf": "server=1\r\nlisten=1\r\nrpcallowip=127.0.0.1\r\nrpcuser=\r\nrpcpassword=\r\nenableaccounts=1\r\nstaking=0\r\nport=51572\r\nrpcport=51573\r\n",
+		"GravityCoin--4.0.5.0.conf": "server=1\nlisten=1\nrpcallowip=127.0.0.1\nrpcuser=\nrpcpassword=\nport=29100\nrpcport=29200\n",
+		"aeriumx--v2.0.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=35407\r\nrpcport=35408",
+		"alqo--v3.5.conf": "server=1\r\nlisten=1\r\nrpcallowip=127.0.0.1\r\nrpcuser=\r\nrpcpassword=\r\nenableaccounts=1\r\nstaking=0\r\nport=55500\r\nrpcport=55000",
+		"alqo--v4.1.conf": "server=1\nlisten=1\nrpcallowip=127.0.0.1\nrpcuser=\nrpcpassword=\nenableaccounts=1\nstaking=0\nport=55500\nrpcport=55000\n",
+		"amsterdamcoin--v4.6.0.0.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=50020\r\nrpcport=51020",
+		"aprcoin--v1.0.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=3133\r\nrpcport=3132",
+		"australiacash--v0.17.4.0.conf": "server=1\nlisten=1\nrpcuser=\nrpcpassword=\nrpcallowip=127.0.0.1\nport=1986\nrpcport=1987\ntxindex=1\n",
+		"banq--v1.0.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=4568\r\nrpcport=4468",
+		"bitcoin--v0.15.1.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=8333\r\nrpcport=8332\r\ntxindex=1\r\n",
+		"bitcoin--v0.16.0.conf": "server=1\nlisten=1\nrpcuser=\nrpcpassword=\nrpcallowip=127.0.0.1\nport=8333\nrpcport=8332\ntxindex=1\n\n# Legacy addresses must be used (address must begin with \"1\", not \"3\")\naddresstype=legacy\nchangetype=legacy\n",
+		"bitcoin--v0.17.0.conf": "server=1\nlisten=1\nrpcuser=\nrpcpassword=\nrpcallowip=127.0.0.1\nport=8333\nrpcport=8332\ntxindex=1\n\n# Legacy addresses must be used (address must begin with \"1\", not \"3\")\naddresstype=legacy\nchangetype=legacy\n\n# Enable deprecated calls\ndeprecatedrpc=signrawtransaction\n",
+		"bitcoingreen--1.1.0.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=9334\r\nrpcport=9335",
+		"bitcoinzero--5.0.0.5.conf": "server=1\nlisten=1\nrpcuser=\nrpcpassword=\nrpcallowip=127.0.0.1\nport=29301\nrpcport=29201\n",
+		"bitcore--0.15.2.0.0.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=8555\r\nrpcport=8556\r\ntxindex=1\r\n",
+		"blast--v1.2.0.2.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=64640\r\nrpcport=64639",
+		"blocknetdx--v3.9.16.conf": "listen=1\r\nserver=1\r\nrpcallowip=127.0.0.1\r\nrpcuser=\r\nrpcpassword=\r\nport=41412\r\nrpcport=41414",
+		"bulwark--1.2.4.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=52543\r\nrpcport=52541",
+		"carebitcoin--v3.0.0.0.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=9192\r\nrpcport=9193\r\n",
+		"ccbc--v1.2.0.1.conf": "server=1\nlisten=1\nrpcuser=\nrpcpassword=\nrpcallowip=127.0.0.1\nport=5520\nrpcport=15520\n",
+		"civitas--v1.2.2.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=18843\r\nrpcport=28843",
+		"colossusXT--v1.0.5.conf": "server=1\nlisten=1\nrpcallowip=127.0.0.1\nrpcuser=\nrpcpassword=\nenableaccounts=1\nstaking=0\nport=51572\nrpcport=51573\n",
+		"crave--v2.5.0.3.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=48882\r\nrpcport=48883",
+		"crowdcoin--1.1.0.conf": "server=1\r\nlisten=1\r\nrpcallowip=127.0.0.1\r\nrpcuser=\r\nrpcpassword=\r\nport=12875\r\nrpcport=12876",
+		"crown--v0.12.4.1.conf": "server=1 \r\nlisten=1 \r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=9340\r\nrpcport=9341",
+		"dash--v0.12.2.3.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=9999\r\nrpcport=9998",
+		"desire--Desire-v.0.12.2.2.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=9919\r\nrpcport=9918",
+		"diamond--v3.0.1.1.conf": "server=1 \r\nlisten=1 \r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=17771\r\nrpcport=17772",
+		"digibyte--v6.16.2.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=12024\r\nrpcport=14022\r\ntxindex=1\r\n\r\n# Enable deprecated calls\r\ndeprecatedrpc=signrawtransaction\r\n",
+		"digiwage--v1.1.0.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=46003\r\nrpcport=46002",
+		"dinero--v1.0.1.1.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=26285\r\nrpcport=26286",
+		"divi--DESK-1.2.2.conf": "server=1\nlisten=1\nrpcuser=\nrpcpassword=\nrpcallowip=127.0.0.1\nport=52472\nrpcport=52473\n",
+		"dogecoin--v1.10.0-dogeparty.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=22556\r\nrpcport=22555",
+		"dogecoin--v1.10.0.conf": "server=1\nlisten=1\nrpcuser=\nrpcpassword=\nrpcallowip=127.0.0.1\nport=22556\nrpcport=22555\ntxindex=1\n",
+		"dynamic--v2.3.5.0": "server=1\nlisten=1\nrpcuser=\nrpcpassword=\nrpcallowip=127.0.0.1\nport=31300\nrpcport=33350\n",
+		"dynamic--v2.3.5.0.conf": "server=1\nlisten=1\nrpcuser=\nrpcpassword=\nrpcallowip=127.0.0.1\nport=31300\nrpcport=33350\n",
+		"einsteinium--v0.13.48.0.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=41878\r\nrpcport=41879\r\ntxindex=1\r\n",
+		"eternity--v0.12.1.7.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=4855\r\nrpcport=4854",
+		"faircoin--v2.0.0.conf": "server=1\nlisten=1\nrpcallowip=127.0.0.1\nrpcuser=\nrpcpassword=\nport=40404\nrpcport=40405\ntxindex=1\n",
+		"flo--v0.15.0.3.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=7312\r\nrpcport=7313",
+		"fujicoin--fujicoin-v0.16.1.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=3777\r\nrpcport=3776\r\ntxindex=1\r\n\r\n# Legacy addresses must be used\r\naddresstype=legacy\r\nchangetype=legacy\r\n",
+		"galactrum--v1.1.6.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=6270\r\nrpcport=6269",
+		"galilel--v3.2.0.conf": "server=1\nlisten=1\nrpcuser=\nrpcpassword=\nrpcallowip=127.0.0.1\nport=36001\nrpcport=36002",
+		"gincoin--1.1.0.0.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=10111\r\nrpcport=10211",
+		"gobyte--v0.12.2.4.conf": "server=1\r\nlisten=1\r\nrpcallowip=127.0.0.1\r\nrpcuser=\r\nrpcpassword=\r\nenableaccounts=1\r\nstaking=0\r\nport=12455\r\nrpcport=12454",
+		"hash--v1.4.0.conf": "server=1\nlisten=1\nrpcuser=\nrpcpassword=\nrpcallowip=127.0.0.1\nport=4188\nrpcport=4189",
+		"hexxcoin--4.0.3.8.conf": "server=1\r\nlisten=1\r\nrpcallowip=127.0.0.1\r\nrpcuser=\r\nrpcpassword=\r\nport=29100\r\nrpcport=29200\r\n",
+		"htmlcoin--v2.0.3.0.conf": "server=1\r\nlisten=1\r\nrpcallowip=127.0.0.1\r\nrpcuser=\r\nrpcpassword=\r\nport=4890\r\nrpcport=4889",
+		"innova--12.1.10.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=14520\r\nrpcport=8818",
+		"iop--v6.1.0.conf": "server=1\r\nlisten=1\r\nrpcallowip=127.0.0.1\r\nrpcuser=\r\nrpcpassword=\r\nport=4877\r\nrpcport=8337",
+		"iop--v6.2.3.conf": "server=1\nlisten=1\nrpcallowip=127.0.0.1\nrpcuser=\nrpcpassword=\nport=4877\nrpcport=4878\ntxindex=1\n",
+		"ixcoin--v0.14.1.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=8337\r\nrpcport=8338\r\ntxindex=1\r\n",
+		"jiyo--2.1.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=6080\r\nrpcport=6081",
+		"jiyo--v.2.1.conf": "server=1\nlisten=1\nrpcuser=\nrpcpassword=\nrpcallowip=127.0.0.1\nenableaccounts=1\nstaking=0\nport=6080\nrpcport=6081\n",
+		"klks--v2.6.0.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=51121\r\nrpcport=51122",
+		"kreds--v1.0.0.5.1.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=3950\r\nrpcport=3850",
+		"kzcash--v0.1.9.1.conf": "server=1\nlisten=1\nrpcuser=\nrpcpassword=\nrpcallowip=127.0.0.1\nport=8277\nrpcport=8276\n",
+		"lbrycrd--v0.12.2.1.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=9246\r\nrpcport=9245",
+		"lightpaycoin--v1.0.0.0.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=39797\r\nrpcport=39798",
+		"litecoin--v0.15.1.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=9333\r\nrpcport=9332\r\ntxindex=1\r\n",
+		"litecoin--v0.16.0.conf": "server=1\nlisten=1\nrpcuser=\nrpcpassword=\nrpcallowip=127.0.0.1\nport=9333\nrpcport=9332\ntxindex=1\n\n# Legacy addresses must be used (address must begin with \"L\", not \"M\")\naddresstype=legacy\nchangetype=legacy\n",
+		"litecoin--v0.16.3.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=9333\r\nrpcport=9332\r\n\r\n# Legacy addresses must be used (address must begin with \"L\", not \"M\")\r\naddresstype=legacy\r\nchangetype=legacy",
+		"lynx--v0.15.1.0.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=22566\r\nrpcport=22567\r\ntxindex=1\r\n",
+		"machinecoin--v0.16.1.4.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=40333\r\nrpcport=40332\r\n\r\n# Legacy addresses must be used (address must begin with \"M\", not \"9\")\r\naddresstype=legacy\r\nchangetype=legacy",
+		"mgn--v1.0.0.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=57821\r\nrpcport=57822",
+		"minexcoin--v1.3.1.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=8335\r\nrpcport=17786",
+		"mktcoin--0.14.3.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=9275\r\nrpcport=9276",
+		"monacoin--monacoin-0.15.1.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=9401\r\nrpcport=9402\r\ntxindex=1\r\n",
+		"monacoin--monacoin-0.16.2.conf": "server=1\nlisten=1\nrpcuser=\nrpcpassword=\nrpcallowip=127.0.0.1\nport=9401\nrpcport=9402\ntxindex=1\n\n# Legacy addresses must be used (address must begin with \"M\", not \"P\")\naddresstype=legacy\nchangetype=legacy\n",
+		"monacoin--monacoin-0.16.3.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=9401\r\nrpcport=9402\r\n\r\n# Legacy addresses must be used (address must begin with \"M\", not \"P\")\r\naddresstype=legacy\r\nchangetype=legacy",
+		"monetaryunit--v2.0.2.conf": "server=1\nlisten=1\nrpcuser=\nrpcpassword=\nrpcallowip=127.0.0.1\nport=19683\nrpcport=29683\n",
+		"monoeci--v0.12.2.3.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=24157\r\nrpcport=24156",
+		"mue--v1.0.3.2.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=19683\r\nrpcport=29683",
+		"myriadcoin--v0.14.2.5.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=10888\r\nrpcport=10889\r\ntxindex=1\r\n",
+		"myriadcoin--v0.16.3.0.conf": "server=1\nlisten=1\nrpcallowip=127.0.0.1\nport=10888\nrpcport=10889\nrpcuser=\nrpcpassword=\ntxindex=1\n\n# Legacy addresses must be used (address must begin with \"M\", not \"4\")\naddresstype=legacy\nchangetype=legacy\n",
+		"namecoin--nc0.13.99-name-tab-beta1.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=8334\r\nrpcport=8336\r\ntxindex=1\r\n",
+		"nix--v2.0.3.conf": "server=1\nlisten=1\nrpcuser=\nrpcpassword=\nrpcallowip=127.0.0.1\nport=6214\nrpcport=6215\n\n# Legacy addresses must be used (address must begin with \"G\", not \"N\")\naddresstype=legacy\nchangetype=legacy\n",
+		"nodium--3.0.6.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=6250\r\nrpcport=56000",
+		"noir--v1.0.0.2.conf": "server=1\nlisten=1\nrpcuser=\nrpcpassword=\nrpcallowip=127.0.0.1\nport=8255\nrpcport=8822\n",
+		"northern--1.0.0.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=6942\r\nrpcport=6943",
+		"nyx--v2.0.0.0.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=4330\r\nrpcport=4331",
+		"odin--v1.4.2.conf": "server=1\nlisten=1\nrpcuser=\nrpcpassword=\nrpcallowip=127.0.0.1\nport=22100\nrpcport=22101\n",
+		"ohmc--2.3.1.conf": "server=1\nlisten=1\nrpcuser=\nrpcpassword=\nrpcallowip=127.0.0.1\nenableaccounts=1\nstaking=0\nport=52020\nrpcport=52021\n",
+		"ohmc--v2.3.0.0-gcbcb549.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=52020\r\nrpcport=52021",
+		"paccoin--v0.12.5.1.conf": "server=1\nlisten=1\nrpcuser=\nrpcpassword=\nrpcallowip=127.0.0.1\nport=7112\nrpcport=7111\n",
+		"phore--v1.3.0.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=11771\r\nrpcport=11772",
+		"phore--v1.3.3.1.conf": "server=1\nlisten=1\nrpcuser=\nrpcpassword=\nrpcallowip=127.0.0.1\nport=11771\nrpcport=11772\n",
+		"pivx--v3.1.0.2.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=51472\r\nrpcport=51473",
+		"polis--v1.3.1.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=24126\r\nrpcport=24127",
+		"pura--v1.0.0.0.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=44444\r\nrpcport=55555",
+		"qbic--v1.0.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=17195\r\nrpcport=17196",
+		"qtum--mainnet-ignition-v0.15.2.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=3888\r\nrpcport=3889",
+		"qtum--mainnet-ignition-v0.17.1.conf": "server=1\nlisten=1\nrpcuser=\nrpcpassword=\nrpcallowip=127.0.0.1\nport=3888\nrpcport=3889\n\n# Enable deprecated calls\ndeprecatedrpc=signrawtransaction\n",
+		"raven--v0.15.99.0.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=8767\r\nrpcport=8766",
+		"securecloud--v2.4.3.conf": "server=1\nlisten=1\nrpcuser=\nrpcpassword=\nrpcallowip=127.0.0.1\nport=9190\nrpcport=9191\n",
+		"send--v1.1.0.0.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=50050\r\nrpcport=50051",
+		"sequence--v1.3.0.0.conf": "server=1\nlisten=1\nrpcuser=\nrpcpassword=\nrpcallowip=127.0.0.1\nenableaccounts=1\nstaking=0\nport=16662\nrpcport=16663\n",
+		"shekel--1.4.0.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=5500\r\nrpcport=5501",
+		"sibcoin--v0.16.1.3.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=1945\r\nrpcport=1944",
+		"solaris--v2.8.0.0.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=60020\r\nrpcport=61020",
+		"sparks--0.12.1.3.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=8890\r\nrpcport=8892",
+		"sparks--v0.12.3.2.conf": "server=1\nlisten=1\nrpcuser=\nrpcpassword=\nrpcallowip=127.0.0.1\nport=8890\nrpcport=8892\n",
+		"straks--1.14.7.3.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=7575\r\nrpcport=7574",
+		"sucr--v0.12.2.1.conf": "server=1\r\nlisten=1\r\nrpcallowip=127.0.0.1\r\nrpcuser=\r\nrpcpassword=\r\nenableaccounts=1\r\nstaking=0\r\nport=9338\r\nrpcport=9339",
+		"syndicate--v2.0.0.conf": "server=1 \r\nlisten=1 \r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=25992\r\nrpcport=25993",
+		"syscoin--3.0.5.0.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=8369\r\nrpcport=8370",
+		"terracoin--v0.12.1.8.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=13333\r\nrpcport=13332",
+		"tribe--v1.0.0.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=9399\r\nrpcport=9499",
+		"ucom--v0.1.8.1.conf": "server=1\nlisten=1\nrpcuser=\nrpcpassword=\nrpcallowip=127.0.0.1\nport=8277\nrpcport=8276\n",
+		"ufocoin--v0.16.1.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=9887\r\nrpcport=9888",
+		"ufocoin--v0.17.0.conf": "server=1\nlisten=1\nrpcallowip=127.0.0.1\nport=9887\nrpcport=9888\nrpcuser=\nrpcpassword=\n\n# Legacy addresses must be used\naddresstype=legacy\nchangetype=legacy\n\n# Enable deprecated calls\ndeprecatedrpc=signrawtransaction\n",
+		"ultranatum--1.1.0.2.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=23654\r\nrpcport=23655",
+		"unbreakablecoin--v0.10.3.0.conf": "server=1 \r\nlisten=1 \r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nrpcport=9337\r\nport=9336\r\ntxindex=1\r\n",
+		"unitedcryptocommunity--v0.1.8.1.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=8277\r\nrpcport=8276",
+		"unobtanium--v0.10.1.1.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallow=127.0.0.1\r\nport=65534\r\nrpcport=65535\r\ntxindex=1\r\n",
+		"vertcoin--0.12.0.conf": "server=1\nlisten=1\nrpcuser=\nrpcpassword=\nrpcallowip=127.0.0.1\nport=5889\nrpcport=5888\n",
+		"vertcoin--0.13.0.conf": "server=1\nlisten=1\nrpcuser=\nrpcpassword=\nrpcallowip=127.0.0.1\nport=5889\nrpcport=5888\ntxindex=1\n\n# Legacy addresses must be used (address must begin with \"V\", not \"3\")\naddresstype=legacy\nchangetype=legacy\n",
+		"vertcoin--0.13.2.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=5889\r\nrpcport=5888\r\n\r\n# Legacy addresses must be used (address must begin with \"V\", not \"3\")\r\naddresstype=legacy\r\nchangetype=legacy\r\n",
+		"viacoin--v0.15.1.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=5223\r\nrpcport=5222\r\ntxindex=1\r\n",
+		"vitae--v4.1.0.1.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=8765\r\nrpcport=8764",
+		"vivo--v0.12.1.8.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=12845\r\nrpcport=12846",
+		"vsync--v3.8.5.0.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=65010\r\nrpcport=65011",
+		"vyigrat--v1.3.0.0.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=12698\r\nrpcport=12699",
+		"wagerr--1.5.0.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=55002\r\nrpcport=55003",
+		"xcurrency--v3.0.05.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=14333\r\nrpcport=14332",
+		"xsn--v1.0.9.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nenableaccounts=1\r\nstaking=0\r\nport=62583\r\nrpcport=62584",
+		"zcoin--v0.13.6.4.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=8168\r\nrpcport=8888",
+		"zoin--v0.13.1.6.conf": "server=1\r\nlisten=1\r\nrpcuser=\r\nrpcpassword=\r\nrpcallowip=127.0.0.1\r\nport=8255\r\nrpcport=8822"
+	},
+	"xbridgeConfs": {
+		"GravityCoin--4.0.5.0.conf": "[GXX]\nTitle=GravityCoin\nAddress=\nIp=127.0.0.1\nPort=29200\nUsername=\nPassword=\nAddressPrefix=40\nScriptPrefix=10\nSecretPrefix=210\nCOIN=100000000\nMinimumAmount=0\nDustAmount=0\nCreateTxMethod=BTC\nGetNewKeySupported=true\nImportWithNoScanSupported=true\nFeePerByte=200\nMinTxFee=100000\nTxVersion=1\nBlockTime=150\nConfirmations=0\nTxWithTimeField=false\nLockCoinsSupported=false\n",
+		"aeriumx--v2.0.conf": "[AEX]\r\nTitle=AeriumX\r\nAddress=\r\nIp=127.0.0.1\r\nPort=35408\r\nUsername=\r\nPassword=\r\nAddressPrefix=23\r\nScriptPrefix=83\r\nSecretPrefix=151\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=60\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"alqo--v3.5.conf": "[ALQO]\r\nTitle=ALQO\r\nAddress=\r\nIp=127.0.0.1\r\nPort=55000\r\nUsername=\r\nPassword=\r\nAddressPrefix=23\r\nScriptPrefix=16\r\nSecretPrefix=193\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=60\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"alqo--v4.1.conf": "[XLQ]\nTitle=ALQO\nAddress=\nIp=127.0.0.1\nPort=55000\nUsername=\nPassword=\nAddressPrefix=23\nScriptPrefix=16\nSecretPrefix=193\nCOIN=100000000\nMinimumAmount=0\nTxVersion=1\nDustAmount=0\nCreateTxMethod=BTC\nGetNewKeySupported=true\nImportWithNoScanSupported=true\nMinTxFee=10000\nBlockTime=60\nFeePerByte=20\nConfirmations=0\n",
+		"amsterdamcoin--v4.6.0.0.conf": "[AMS]\r\nTitle=AmsterdamCoin\r\nAddress=\r\nIp=127.0.0.1\r\nPort=51020\r\nUsername=\r\nPassword=\r\nAddressPrefix=23\r\nScriptPrefix=13\r\nSecretPrefix=212\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=60\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"aprcoin--v1.0.conf": "[APR]\r\nTitle=APRcoin\r\nAddress=\r\nIp=127.0.0.1\r\nPort=3132\r\nUsername=\r\nPassword=\r\nAddressPrefix=12\r\nScriptPrefix=6\r\nSecretPrefix=46\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=120\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"australiacash--v0.17.4.0.conf": "[AUS]\nTitle=AustraliaCash\nAddress=\nIp=127.0.0.1\nPort=1987\nUsername=\nPassword=\nAddressPrefix=23\nScriptPrefix=63\nSecretPrefix=23\nCOIN=100000000\nMinimumAmount=0\nTxVersion=2\nDustAmount=0\nCreateTxMethod=BTC\nMinTxFee=2000000\nBlockTime=150\nGetNewKeySupported=true\nImportWithNoScanSupported=true\nFeePerByte=4000\nConfirmations=0\nTxWithTimeField=false\nLockCoinsSupported=false\n",
+		"banq--v1.0.conf": "[BANQ]\r\nTitle=Banq\r\nAddress=\r\nIp=127.0.0.1\r\nPort=4468\r\nUsername=\r\nPassword=\r\nAddressPrefix=25\r\nScriptPrefix=10\r\nSecretPrefix=198\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=180\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"bitcoin--v0.15.1.conf": "[BTC]\r\nTitle=Bitcoin\r\nAddress=\r\nIp=127.0.0.1\r\nPort=8332\r\nUsername=\r\nPassword=\r\nAddressPrefix=0\r\nScriptPrefix=5\r\nSecretPrefix=128\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=2\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nMinTxFee=7500\r\nBlockTime=600\r\nGetNewKeySupported=false\r\nImportWithNoScanSupported=false\r\nFeePerByte=30\r\nConfirmations=0\r\n",
+		"bitcoingreen--1.1.0.conf": "[BITG]\r\nTitle=BitcoinGreen\r\nAddress=\r\nIp=127.0.0.1\r\nPort=9335\r\nUsername=\r\nPassword=\r\nAddressPrefix=38\r\nScriptPrefix=6\r\nSecretPrefix=46\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=60\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"bitcoinzero--5.0.0.5.conf": "[BZX]\nTitle=BitcoinZero\nAddress=\nIp=127.0.0.1\nPort=29201\nUsername=user\nPassword=pass\nAddressPrefix=75\nScriptPrefix=34\nSecretPrefix=210\nCOIN=100000000\nMinimumAmount=0\nTxVersion=1\nDustAmount=0\nCreateTxMethod=BTC\nGetNewKeySupported=true\nImportWithNoScanSupported=true\nMinTxFee=100000\nBlockTime=150\nFeePerByte=200\nConfirmations=0\nTxWithTimeField=false\nLockCoinsSupported=false\n",
+		"bitcore--0.15.2.0.0.conf": "[BTX]\r\nTitle=BitCore\r\nAddress=\r\nIp=127.0.0.1\r\nPort=8556\r\nUsername=\r\nPassword=\r\nAddressPrefix=3\r\nScriptPrefix=125\r\nSecretPrefix=128\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=2\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nMinTxFee=2000000\r\nBlockTime=150\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nFeePerByte=4000\r\nConfirmations=0\r\nTxWithTimeField=false\r\nLockCoinsSupported=false\r\n",
+		"blast--v1.2.0.2.conf": "[BLAST]\r\nTitle=BLAST\r\nAddress=\r\nIp=127.0.0.1\r\nPort=64639\r\nUsername=\r\nPassword=\r\nAddressPrefix=25\r\nScriptPrefix=18\r\nSecretPrefix=239\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=32\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"blocknetdx--v3.9.16.conf": "[BLOCK]\r\nTitle=Blocknet\r\nAddress=\r\nIp=127.0.0.1\r\nPort=41414\r\nUsername=\r\nPassword=\r\nAddressPrefix=26\r\nScriptPrefix=28\r\nSecretPrefix=154\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=60\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"bulwark--1.2.4.conf": "[BWK]\r\nTitle=Bulwark\r\nAddress=\r\nIp=127.0.0.1\r\nPort=52541\r\nUsername=\r\nPassword=\r\nAddressPrefix=85\r\nScriptPrefix=18\r\nSecretPrefix=212\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=90\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"carebitcoin--v3.0.0.0.conf": "[CARE]\r\nTitle=Carebit\r\nAddress=\r\nIp=127.0.0.1\r\nPort=9193\r\nUsername=\r\nPassword=\r\nAddressPrefix=28\r\nScriptPrefix=137\r\nSecretPrefix=55\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=60\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"ccbc--v1.2.0.1.conf": "[CCBC]\nTitle=CryptoCashBack\nAddress=\nIp=127.0.0.1\nPort=15520\nUsername=\nPassword=\nAddressPrefix=63\nScriptPrefix=68\nSecretPrefix=212\nCOIN=100000000\nMinimumAmount=0\nTxVersion=1\nDustAmount=0\nCreateTxMethod=BTC\nMinTxFee=10000\nBlockTime=60\nGetNewKeySupported=true\nImportWithNoScanSupported=true\nFeePerByte=20\nConfirmations=0\nTxWithTimeField=false\nLockCoinsSupported=false\n",
+		"civitas--v1.2.2.conf": "[CIV]\r\nTitle=Civitas\r\nAddress=\r\nIp=127.0.0.1\r\nPort=28843\r\nUsername=\r\nPassword=\r\nAddressPrefix=28\r\nScriptPrefix=8\r\nSecretPrefix=212\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=60\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"colossusXT--v1.0.5.conf": "[COLX]\r\nTitle=ColossusXT\r\nAddress=\r\nIp=127.0.0.1\r\nPort=51573\r\nUsername=\r\nPassword=\r\nAddressPrefix=30\r\nScriptPrefix=13\r\nSecretPrefix=212\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=200000000\r\nBlockTime=60\r\nFeePerByte=400000\r\nConfirmations=0\r\n",
+		"crave--v2.5.0.3.conf": "[CRAVE]\r\nTitle=Crave\r\nAddress=\r\nIp=127.0.0.1\r\nPort=48883\r\nUsername=\r\nPassword=\r\nAddressPrefix=70\r\nScriptPrefix=85\r\nSecretPrefix=153\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=60\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"crowdcoin--1.1.0.conf": "[CRC]\r\nTitle=CrowdCoin\r\nAddress=\r\nIp=127.0.0.1\r\nPort=12876\r\nUsername=\r\nPassword=\r\nAddressPrefix=28\r\nScriptPrefix=88\r\nSecretPrefix=0\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=2000\r\nBlockTime=120\r\nFeePerByte=4\r\nConfirmations=0\r\n",
+		"crown--v0.12.4.1.conf": "[CRW]\r\nTitle=Crown\r\nAddress=\r\nIp=127.0.0.1\r\nPort=9341\r\nUsername=\r\nPassword=\r\nAddressPrefix=0\r\nScriptPrefix=28\r\nSecretPrefix=128\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=60\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"dash--v0.12.2.3.conf": "[DASH]\r\nTitle=Dash\r\nAddress=\r\nIp=127.0.0.1\r\nPort=9998\r\nUsername=\r\nPassword=\r\nAddressPrefix=76\r\nScriptPrefix=16\r\nSecretPrefix=204\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=false\r\nImportWithNoScanSupported=true\r\nMinTxFee=2500\r\nBlockTime=150\r\nFeePerByte=5\r\nConfirmations=0\r\n",
+		"desire--Desire-v.0.12.2.2.conf": "[DSR]\r\nTitle=Desire\r\nAddress=\r\nIp=127.0.0.1\r\nPort=9918\r\nUsername=\r\nPassword=\r\nAddressPrefix=30\r\nScriptPrefix=16\r\nSecretPrefix=204\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=2000\r\nBlockTime=150\r\nFeePerByte=4\r\nConfirmations=0\r\n",
+		"diamond--v3.0.1.1.conf": "[DMD]\r\nTitle=Diamond\r\nAddress=\r\nIp=127.0.0.1\r\nPort=17772\r\nUsername=\r\nPassword=\r\nAddressPrefix=90\r\nScriptPrefix=8\r\nSecretPrefix=218\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=135\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"digibyte--v6.16.2.conf": "[DGB]\r\nTitle=DigiByte\r\nAddress=\r\nIp=127.0.0.1\r\nPort=14022\r\nUsername=\r\nPassword=\r\nAddressPrefix=30\r\nScriptPrefix=63\r\nSecretPrefix=128\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=false\r\nImportWithNoScanSupported=true\r\nMinTxFee=100000\r\nBlockTime=15\r\nFeePerByte=200\r\nConfirmations=0\r\n",
+		"digiwage--v1.1.0.conf": "[WAGE]\r\nTitle=Digiwage\r\nAddress=\r\nIp=127.0.0.1\r\nPort=46002\r\nUsername=\r\nPassword=\r\nAddressPrefix=30\r\nScriptPrefix=90\r\nSecretPrefix=89\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=60\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"dinero--v1.0.1.1.conf": "[DIN]\r\nTitle=Dinero\r\nAddress=\r\nIp=127.0.0.1\r\nPort=26286\r\nUsername=\r\nPassword=\r\nAddressPrefix=30\r\nScriptPrefix=13\r\nSecretPrefix=204\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=2000\r\nBlockTime=90\r\nFeePerByte=4\r\nConfirmations=0\r\n",
+		"divi--DESK-1.2.2.conf": "[DIVI]\nTitle=Divi\nAddress=\nIp=127.0.0.1\nPort=52473\nUsername=\nPassword=\nAddressPrefix=30\nScriptPrefix=13\nSecretPrefix=212\nCOIN=100000000\nMinimumAmount=0\nTxVersion=1\nDustAmount=0\nCreateTxMethod=BTC\nGetNewKeySupported=true\nImportWithNoScanSupported=true\nMinTxFee=5000\nBlockTime=60\nFeePerByte=20\nConfirmations=0\nTxWithTimeField=false\nLockCoinsSupported=false\n",
+		"dogecoin--v1.10.0-dogeparty.conf": "[DOGE]\r\nTitle=Dogecoin\r\nAddress=\r\nIp=127.0.0.1\r\nPort=22555\r\nUsername=\r\nPassword=\r\nAddressPrefix=30\r\nScriptPrefix=22\r\nSecretPrefix=158\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=false\r\nImportWithNoScanSupported=true\r\nMinTxFee=100000000\r\nBlockTime=60\r\nFeePerByte=200000\r\nConfirmations=0\r\n",
+		"dogecoin--v1.10.0.conf": "[DOGE]\nTitle=Dogecoin\nAddress=\nIp=127.0.0.1\nPort=22555\nUsername=\nPassword=\nAddressPrefix=30\nScriptPrefix=22\nSecretPrefix=158\nCOIN=100000000\nMinimumAmount=0\nTxVersion=1\nDustAmount=0\nCreateTxMethod=BTC\nGetNewKeySupported=false\nImportWithNoScanSupported=true\nMinTxFee=100000000\nBlockTime=60\nFeePerByte=200000\nConfirmations=0\n",
+		"dynamic--v2.3.5.0": "[DYN]\nTitle=Dynamic\nAddress=\nIp=127.0.0.1\nPort=33350\nUsername=\nPassword=\nAddressPrefix=30\nScriptPrefix=10\nSecretPrefix=140\nCOIN=100000000\nMinimumAmount=0\nTxVersion=1\nDustAmount=0\nCreateTxMethod=BTC\nGetNewKeySupported=false\nImportWithNoScanSupported=false\nMinTxFee=10000\nBlockTime=128\nFeePerByte=20\nConfirmations=0\n",
+		"dynamic--v2.3.5.0.conf": "[DYN]\nTitle=Dynamic\nAddress=\nIp=127.0.0.1\nPort=33350\nUsername=\nPassword=\nAddressPrefix=30\nScriptPrefix=10\nSecretPrefix=140\nCOIN=100000000\nMinimumAmount=0\nTxVersion=1\nDustAmount=0\nCreateTxMethod=BTC\nGetNewKeySupported=false\nImportWithNoScanSupported=false\nMinTxFee=10000\nBlockTime=128\nFeePerByte=20\nConfirmations=0\n",
+		"einsteinium--v0.13.48.0.conf": "[EMC2]\r\nTitle=Einsteinium\r\nAddress=\r\nIp=127.0.0.1\r\nPort=41879\r\nUsername=\r\nPassword=\r\nAddressPrefix=33\r\nScriptPrefix=55\r\nSecretPrefix=176\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=200000\r\nBlockTime=60\r\nFeePerByte=400\r\nConfirmations=0\r\n",
+		"eternity--v0.12.1.7.conf": "[ENT]\r\nTitle=Eternity\r\nAddress=\r\nIp=127.0.0.1\r\nPort=4854\r\nUsername=\r\nPassword=\r\nAddressPrefix=33\r\nScriptPrefix=8\r\nSecretPrefix=101\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=150\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"faircoin--v2.0.0.conf": "[FAIR]\nTitle=Faircoin\nAddress=\nIp=127.0.0.1\nPort=40405\nUsername=\nPassword=\nAddressPrefix=95\nScriptPrefix=36\nSecretPrefix=223\nCOIN=100000000\nMinimumAmount=0\nTxVersion=1\nDustAmount=0\nCreateTxMethod=BTC\nGetNewKeySupported=true\nImportWithNoScanSupported=true\nMinTxFee=800000\nBlockTime=210\nFeePerByte=1600\nConfirmations=0\n",
+		"flo--v0.15.0.3.conf": "[FLO]\r\nTitle=Flo\r\nAddress=\r\nIp=127.0.0.1\r\nPort=7313\r\nUsername=\r\nPassword=\r\nAddressPrefix=35\r\nScriptPrefix=94\r\nSecretPrefix=163\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=20000\r\nBlockTime=40\r\nFeePerByte=40\r\nConfirmations=0\r\n",
+		"fujicoin--fujicoin-v0.16.1.conf": "[FJC]\r\nTitle=FujiCoin\r\nAddress=\r\nIp=127.0.0.1\r\nPort=3776\r\nUsername=\r\nPassword=\r\nAddressPrefix=36\r\nScriptPrefix=16\r\nSecretPrefix=164\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=2000000\r\nBlockTime=60\r\nFeePerByte=4000\r\nConfirmations=0\r\n",
+		"galactrum--v1.1.6.conf": "[ORE]\r\nTitle=Galactrum\r\nAddress=\r\nIp=127.0.0.1\r\nPort=6269\r\nUsername=\r\nPassword=\r\nAddressPrefix=38\r\nScriptPrefix=16\r\nSecretPrefix=204\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=2000\r\nBlockTime=120\r\nFeePerByte=4\r\nConfirmations=0\r\n",
+		"galilel--v3.2.0.conf": "[GALI]\nTitle=Galilel\nAddress=\nIp=127.0.0.1\nPort=36002\nUsername=\nPassword=\nAddressPrefix=68\nScriptPrefix=16\nSecretPrefix=193\nCOIN=100000000\nMinimumAmount=0\nTxVersion=1\nDustAmount=0\nCreateTxMethod=BTC\nGetNewKeySupported=true\nImportWithNoScanSupported=true\nMinTxFee=5000\nBlockTime=60\nFeePerByte=20\nConfirmations=0\nTxWithTimeField=false\nLockCoinsSupported=false\n",
+		"gincoin--1.1.0.0.conf": "[GIN]\r\nTitle=GINcoin\r\nAddress=\r\nIp=127.0.0.1\r\nPort=10211\r\nUsername=\r\nPassword=\r\nAddressPrefix=38\r\nScriptPrefix=10\r\nSecretPrefix=198\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=2000\r\nBlockTime=120\r\nFeePerByte=4\r\nConfirmations=0\r\n",
+		"gobyte--v0.12.2.4.conf": "[GBX]\r\nTitle=GoByte\r\nAddress=\r\nIp=127.0.0.1\r\nPort=12454\r\nUsername=\r\nPassword=\r\nAddressPrefix=38\r\nScriptPrefix=10\r\nSecretPrefix=198\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=2000\r\nBlockTime=150\r\nFeePerByte=4\r\nConfirmations=0\r\n",
+		"hash--v1.4.0.conf": "[HASH]\nTitle=HASH\nAddress=\nIp=127.0.0.1\nPort=4189\nUsername=\nPassword=\nAddressPrefix=40\nScriptPrefix=23\nSecretPrefix=63\nCOIN=100000000\nMinimumAmount=0\nTxVersion=1\nDustAmount=0\nCreateTxMethod=BTC\nGetNewKeySupported=true\nImportWithNoScanSupported=true\nMinTxFee=5000\nBlockTime=60\nFeePerByte=20\nConfirmations=0\nTxWithTimeField=false\nLockCoinsSupported=false\n",
+		"hexxcoin--4.0.3.8.conf": "[HXX]\r\nTitle=Hexx\r\nAddress=\r\nIp=127.0.0.1\r\nPort=29200\r\nUsername=\r\nPassword=\r\nAddressPrefix=40\r\nScriptPrefix=10\r\nSecretPrefix=210\r\nCOIN=100000000\r\nMinimumAmount=0\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nFeePerByte=0\r\nMinTxFee=0\r\nTxVersion=1\r\nBlockTime=150\r\nConfirmations=0\r\n",
+		"htmlcoin--v2.0.3.0.conf": "[HTML]\r\nTitle=HTMLCoin\r\nAddress=\r\nIp=127.0.0.1\r\nPort=4889\r\nUsername=\r\nPassword=\r\nAddressPrefix=41\r\nScriptPrefix=100\r\nSecretPrefix=169\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=625000\r\nBlockTime=60\r\nFeePerByte=1250\r\nConfirmations=0\r\n",
+		"innova--12.1.10.conf": "[INN]\r\nTitle=Innova\r\nAddress=\r\nIp=127.0.0.1\r\nPort=8818\r\nUsername=\r\nPassword=\r\nAddressPrefix=102\r\nScriptPrefix=20\r\nSecretPrefix=195\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=120\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"iop--v6.1.0.conf": "[IOP]\r\nTitle=InternetofPeople\r\nAddress=\r\nIp=127.0.0.1\r\nPort=8337\r\nUsername=\r\nPassword=\r\nAddressPrefix=117\r\nScriptPrefix=174\r\nSecretPrefix=49\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=120\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"iop--v6.2.3.conf": "[IOP]\nTitle=InternetofPeople\nAddress=\nIp=127.0.0.1\nPort=4878\nUsername=\nPassword=\nAddressPrefix=117\nScriptPrefix=174\nSecretPrefix=49\nCOIN=100000000\nMinimumAmount=0\nTxVersion=1\nDustAmount=0\nCreateTxMethod=BTC\nGetNewKeySupported=true\nImportWithNoScanSupported=true\nMinTxFee=10000\nBlockTime=120\nFeePerByte=20\nConfirmations=0\n",
+		"ixcoin--v0.14.1.conf": "[IXC]\r\nTitle=Ixcoin\r\nAddress=\r\nIp=127.0.0.1\r\nPort=8338\r\nUsername=\r\nPassword=\r\nAddressPrefix=138\r\nScriptPrefix=5\r\nSecretPrefix=128\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=600\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"jiyo--2.1.conf": "[JIYO]\r\nTitle=Jiyo\r\nAddress=\r\nIp=127.0.0.1\r\nPort=6081\r\nUsername=\r\nPassword=\r\nAddressPrefix=21\r\nScriptPrefix=25\r\nSecretPrefix=136\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=0\r\nBlockTime=60\r\nFeePerByte=0\r\nConfirmations=0",
+		"jiyo--v.2.1.conf": "[JIYOX]\nTitle=Jiyo\nAddress=\nIp=127.0.0.1\nPort=6081\nUsername=\nPassword=\nAddressPrefix=21\nScriptPrefix=25\nSecretPrefix=136\nCOIN=100000000\nMinimumAmount=0\nTxVersion=1\nDustAmount=0\nCreateTxMethod=BTC\nGetNewKeySupported=true\nImportWithNoScanSupported=true\nMinTxFee=10000\nBlockTime=60\nFeePerByte=20\nConfirmations=0\n",
+		"klks--v2.6.0.conf": "[KLKS]\r\nTitle=Kalkulus\r\nAddress=\r\nIp=127.0.0.1\r\nPort=51122\r\nUsername=\r\nPassword=\r\nAddressPrefix=46\r\nScriptPrefix=13\r\nSecretPrefix=174\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=60\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"kreds--v1.0.0.5.1.conf": "[KREDS]\r\nTitle=Kreds\r\nAddress=\r\nIp=127.0.0.1\r\nPort=3850\r\nUsername=\r\nPassword=\r\nAddressPrefix=45\r\nScriptPrefix=5\r\nSecretPrefix=195\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=120\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"kzcash--v0.1.9.1.conf": "[KZC]\nTitle=KZCash\nAddress=\nIp=127.0.0.1\nPort=8276\nUsername=\nPassword=\nAddressPrefix=46\nScriptPrefix=16\nSecretPrefix=204\nCOIN=100000000\nMinimumAmount=0\nTxVersion=1\nDustAmount=0\nCreateTxMethod=BTC\nGetNewKeySupported=true\nImportWithNoScanSupported=true\nMinTxFee=10000\nBlockTime=150\nFeePerByte=20\nConfirmations=0\nTxWithTimeField=false\nLockCoinsSupported=false\n",
+		"lbrycrd--v0.12.2.1.conf": "[LBC]\r\nTitle=LBRYCredits\r\nAddress=\r\nIp=127.0.0.1\r\nPort=9245\r\nUsername=\r\nPassword=\r\nAddressPrefix=85\r\nScriptPrefix=122\r\nSecretPrefix=28\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=false\r\nImportWithNoScanSupported=true\r\nMinTxFee=20000\r\nBlockTime=150\r\nFeePerByte=40\r\nConfirmations=0\r\n",
+		"lightpaycoin--v1.0.0.0.conf": "[LPC]\r\nTitle=LightPayCoin\r\nAddress=\r\nIp=127.0.0.1\r\nPort=39798\r\nUsername=\r\nPassword=\r\nAddressPrefix=49\r\nScriptPrefix=13\r\nSecretPrefix=179\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=60\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"litecoin--v0.15.1.conf": "[LTC]\r\nTitle=Litecoin\r\nAddress=\r\nIp=127.0.0.1\r\nPort=9332\r\nUsername=\r\nPassword=\r\nAddressPrefix=48\r\nScriptPrefix=50\r\nSecretPrefix=176\r\nCOIN=100000000\r\nMinimumAmount=0\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=false\r\nImportWithNoScanSupported=true\r\nFeePerByte=200\r\nMinTxFee=50000\r\nTxVersion=1\r\nBlockTime=150\r\nConfirmations=0\r\n",
+		"lynx--v0.15.1.0.conf": "[LYNX]\r\nTitle=Lynx\r\nAddress=\r\nIp=127.0.0.1\r\nPort=22567\r\nUsername=\r\nPassword=\r\nAddressPrefix=45\r\nScriptPrefix=50\r\nSecretPrefix=173\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=100000000\r\nBlockTime=30\r\nFeePerByte=200000\r\nConfirmations=0\r\n",
+		"machinecoin--v0.16.1.4.conf": "[MAC]\r\nTitle=MachineCoin\r\nAddress=\r\nIp=127.0.0.1\r\nPort=40332\r\nUsername=\r\nPassword=\r\nAddressPrefix=50\r\nScriptPrefix=20\r\nSecretPrefix=178\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=100000\r\nBlockTime=150\r\nFeePerByte=200\r\nConfirmations=0\r\n",
+		"mgn--v1.0.0.conf": "[MGN]\r\nTitle=Magnacoin\r\nAddress=\r\nIp=127.0.0.1\r\nPort=57822\r\nUsername=\r\nPassword=\r\nAddressPrefix=30\r\nScriptPrefix=13\r\nSecretPrefix=212\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=1000000\r\nBlockTime=60\r\nFeePerByte=2000\r\nConfirmations=0\r\n",
+		"minexcoin--v1.3.1.conf": "[MNX]\r\nTitle=MinexCoin\r\nAddress=\r\nIp=127.0.0.1\r\nPort=17786\r\nUsername=\r\nPassword=\r\nAddressPrefix=75\r\nScriptPrefix=5\r\nSecretPrefix=128\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=180\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"mktcoin--0.14.3.conf": "[MLM]\r\nTitle=MktCoin\r\nAddress=\r\nIp=127.0.0.1\r\nPort=9276\r\nUsername=\r\nPassword=\r\nAddressPrefix=110\r\nScriptPrefix=115\r\nSecretPrefix=238\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=150\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"monacoin--monacoin-0.15.1.conf": "[MONA]\r\nTitle=MonaCoin\r\nAddress=\r\nIp=127.0.0.1\r\nPort=9402\r\nUsername=\r\nPassword=\r\nAddressPrefix=50\r\nScriptPrefix=55\r\nSecretPrefix=176\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=false\r\nImportWithNoScanSupported=true\r\nMinTxFee=1000000\r\nBlockTime=90\r\nFeePerByte=2000\r\nConfirmations=0\r\n",
+		"monetaryunit--v2.0.2.conf": "[MUE]\nTitle=MonetaryUnit\nAddress=\nIp=127.0.0.1\nPort=29683\nUsername=\nPassword=\nAddressPrefix=16\nScriptPrefix=76\nSecretPrefix=126\nCOIN=100000000\nMinimumAmount=0\nTxVersion=1\nDustAmount=0\nCreateTxMethod=BTC\nGetNewKeySupported=false\nImportWithNoScanSupported=true\nMinTxFee=10000\nBlockTime=40\nFeePerByte=20\nConfirmations=0\n",
+		"monoeci--v0.12.2.3.conf": "[XMCC]\r\nTitle=Monoeci\r\nAddress=\r\nIp=127.0.0.1\r\nPort=24156\r\nUsername=\r\nPassword=\r\nAddressPrefix=50\r\nScriptPrefix=73\r\nSecretPrefix=77\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=2000\r\nBlockTime=120\r\nFeePerByte=4\r\nConfirmations=0\r\n",
+		"mue--v1.0.3.2.conf": "[MUE]\r\nTitle=MonetaryUnit\r\nAddress=\r\nIp=127.0.0.1\r\nPort=29683\r\nUsername=\r\nPassword=\r\nAddressPrefix=16\r\nScriptPrefix=76\r\nSecretPrefix=126\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=false\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=40\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"myriadcoin--v0.14.2.5.conf": "[XMY]\r\nTitle=Myriad\r\nAddress=\r\nIp=127.0.0.1\r\nPort=10889\r\nUsername=\r\nPassword=\r\nAddressPrefix=50\r\nScriptPrefix=9\r\nSecretPrefix=178\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=20000\r\nBlockTime=60\r\nFeePerByte=40\r\nConfirmations=0\r\n",
+		"namecoin--nc0.13.99-name-tab-beta1.conf": "[NMC]\r\nTitle=Namecoin\r\nAddress=\r\nIp=127.0.0.1\r\nPort=8336\r\nUsername=\r\nPassword=\r\nAddressPrefix=52\r\nScriptPrefix=13\r\nSecretPrefix=180\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=false\r\nImportWithNoScanSupported=true\r\nMinTxFee=100000\r\nBlockTime=600\r\nFeePerByte=200\r\nConfirmations=0\r\n",
+		"nix--v2.0.3.conf": "[NIX]\nTitle=NIX\nAddress=\nIp=127.0.0.1\nPort=6215\nUsername=\nPassword=\nAddressPrefix=38\nScriptPrefix=53\nSecretPrefix=128\nCOIN=100000000\nMinimumAmount=0\nTxVersion=1\nDustAmount=0\nCreateTxMethod=BTC\nGetNewKeySupported=true\nImportWithNoScanSupported=true\nMinTxFee=10000\nBlockTime=120\nFeePerByte=20\nConfirmations=0\n",
+		"nodium--3.0.6.conf": "[XN]\r\nTitle=Nodium\r\nAddress=\r\nIp=127.0.0.1\r\nPort=56000\r\nUsername=\r\nPassword=\r\nAddressPrefix=53\r\nScriptPrefix=30\r\nSecretPrefix=212\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=60\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"noir--v1.0.0.2.conf": "[NOR]\nTitle=Noir\nAddress=\nIp=127.0.0.1\nPort=8822\nUsername=\nPassword=\nAddressPrefix=80\nScriptPrefix=7\nSecretPrefix=208\nCOIN=100000000\nMinimumAmount=0\nTxVersion=1\nDustAmount=0\nCreateTxMethod=BTC\nGetNewKeySupported=true\nImportWithNoScanSupported=true\nMinTxFee=100000\nBlockTime=150\nFeePerByte=200\nConfirmations=0\nTxWithTimeField=false\nLockCoinsSupported=false\n",
+		"northern--1.0.0.conf": "[NORT]\r\nTitle=Northern\r\nAddress=\r\nIp=127.0.0.1\r\nPort=6943\r\nUsername=\r\nPassword=\r\nAddressPrefix=53\r\nScriptPrefix=6\r\nSecretPrefix=46\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=60\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"nyx--v2.0.0.0.conf": "[NYX]\r\nTitle=NyxCoin\r\nAddress=\r\nIp=127.0.0.1\r\nPort=4331\r\nUsername=\r\nPassword=\r\nAddressPrefix=53\r\nScriptPrefix=20\r\nSecretPrefix=139\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=2000\r\nBlockTime=120\r\nFeePerByte=4\r\nConfirmations=0\r\n",
+		"odin--v1.4.2.conf": "[ODIN]\nTitle=Odin\nAddress=\nIp=127.0.0.1\nPort=22101\nUsername=\nPassword=\nAddressPrefix=115\nScriptPrefix=57\nSecretPrefix=138\nCOIN=100000000\nMinimumAmount=0\nTxVersion=1\nDustAmount=0\nCreateTxMethod=BTC\nGetNewKeySupported=true\nImportWithNoScanSupported=true\nMinTxFee=10000\nBlockTime=60\nFeePerByte=20\nConfirmations=0\nTxWithTimeField=false\nLockCoinsSupported=false\n",
+		"ohmc--2.3.1.conf": "[OHMC]\nTitle=Ohmcoin\nAddress=\nIp=127.0.0.1\nPort=52021\nUsername=\nPassword=\nAddressPrefix=80\nScriptPrefix=13\nSecretPrefix=212\nCOIN=100000000\nMinimumAmount=0\nTxVersion=1\nDustAmount=0\nCreateTxMethod=BTC\nGetNewKeySupported=true\nImportWithNoScanSupported=true\nMinTxFee=10000\nBlockTime=30\nFeePerByte=20\nConfirmations=0\n",
+		"ohmc--v2.3.0.0-gcbcb549.conf": "[OHM]\r\nTitle=Ohmcoin\r\nAddress=\r\nIp=127.0.0.1\r\nPort=52021\r\nUsername=\r\nPassword=\r\nAddressPrefix=80\r\nScriptPrefix=13\r\nSecretPrefix=212\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=0\r\nBlockTime=30\r\nFeePerByte=0\r\nConfirmations=0",
+		"paccoin--v0.12.5.1.conf": "[$PAC]\nTitle=PACcoin\nAddress=\nIp=127.0.0.1\nPort=7111\nUsername=\nPassword=\nAddressPrefix=55\nScriptPrefix=10\nSecretPrefix=204\nCOIN=100000000\nMinimumAmount=0\nTxVersion=1\nDustAmount=0\nCreateTxMethod=BTC\nMinTxFee=5000000000\nBlockTime=150\nGetNewKeySupported=true\nImportWithNoScanSupported=true\nFeePerByte=10000000\nConfirmations=0\nTxWithTimeField=false\nLockCoinsSupported=false\n",
+		"phore--v1.3.0.conf": "[PHR]\r\nTitle=Phore\r\nAddress=\r\nIp=127.0.0.1\r\nPort=11772\r\nUsername=\r\nPassword=\r\nAddressPrefix=55\r\nScriptPrefix=13\r\nSecretPrefix=212\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=60\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"phore--v1.3.3.1.conf": "[PHR]\nTitle=Phore\nAddress=\nIp=127.0.0.1\nPort=11772\nUsername=\nPassword=\nAddressPrefix=55\nScriptPrefix=13\nSecretPrefix=212\nCOIN=100000000\nMinimumAmount=0\nTxVersion=1\nDustAmount=0\nCreateTxMethod=BTC\nGetNewKeySupported=true\nImportWithNoScanSupported=true\nMinTxFee=10000\nBlockTime=60\nFeePerByte=20\nConfirmations=0\n",
+		"pivx--v3.1.0.2.conf": "[PIVX]\r\nTitle=PIVX\r\nAddress=\r\nIp=127.0.0.1\r\nPort=51473\r\nUsername=\r\nPassword=\r\nAddressPrefix=30\r\nScriptPrefix=13\r\nSecretPrefix=212\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=false\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=60\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"polis--v1.3.1.conf": "[POLIS]\r\nTitle=Polis\r\nAddress=\r\nIp=127.0.0.1\r\nPort=24127\r\nUsername=\r\nPassword=\r\nAddressPrefix=55\r\nScriptPrefix=56\r\nSecretPrefix=60\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=2000\r\nBlockTime=120\r\nFeePerByte=4\r\nConfirmations=0\r\n",
+		"pura--v1.0.0.0.conf": "[PURA]\r\nTitle=Pura\r\nAddress=\r\nIp=127.0.0.1\r\nPort=55555\r\nUsername=\r\nPassword=\r\nAddressPrefix=55\r\nScriptPrefix=16\r\nSecretPrefix=150\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=150\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"qbic--v1.0.conf": "[QBIC]\r\nTitle=Qbic\r\nAddress=\r\nIp=127.0.0.1\r\nPort=17196\r\nUsername=\r\nPassword=\r\nAddressPrefix=38\r\nScriptPrefix=10\r\nSecretPrefix=198\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=120\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"qtum--mainnet-ignition-v0.15.2.conf": "[QTUM]\r\nTitle=Qtum\r\nAddress=\r\nIp=127.0.0.1\r\nPort=3889\r\nUsername=\r\nPassword=\r\nAddressPrefix=58\r\nScriptPrefix=50\r\nSecretPrefix=128\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=false\r\nImportWithNoScanSupported=true\r\nMinTxFee=625000\r\nBlockTime=150\r\nFeePerByte=1250\r\nConfirmations=0\r\n",
+		"raven--v0.15.99.0.conf": "[RVN]\r\nTitle=Ravencoin\r\nAddress=\r\nIp=127.0.0.1\r\nPort=8766\r\nUsername=\r\nPassword=\r\nAddressPrefix=60\r\nScriptPrefix=122\r\nSecretPrefix=128\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=2000\r\nBlockTime=60\r\nFeePerByte=4\r\nConfirmations=0\r\n",
+		"securecloud--v2.4.3.conf": "[SCN]\nTitle=SecureCloudNet\nAddress=\nIp=127.0.0.1\nPort=9191\nUsername=\nPassword=\nAddressPrefix=125\nScriptPrefix=6\nSecretPrefix=46\nCOIN=100000000\nMinimumAmount=0\nTxVersion=1\nDustAmount=0\nCreateTxMethod=BTC\nGetNewKeySupported=true\nImportWithNoScanSupported=true\nMinTxFee=10000\nBlockTime=60\nFeePerByte=20\nConfirmations=0\nTxWithTimeField=false\nLockCoinsSupported=false\n",
+		"send--v1.1.0.0.conf": "[SEND]\r\nTitle=SocialSend\r\nAddress=\r\nIp=127.0.0.1\r\nPort=50051\r\nUsername=\r\nPassword=\r\nAddressPrefix=63\r\nScriptPrefix=13\r\nSecretPrefix=212\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=30\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"sequence--v1.3.0.0.conf": "[SEQ]\nTitle=Sequence\nAddress=\nIp=127.0.0.1\nPort=16663\nUsername=\nPassword=\nAddressPrefix=63\nScriptPrefix=64\nSecretPrefix=170\nCOIN=100000000\nMinimumAmount=0\nTxVersion=1\nDustAmount=0\nCreateTxMethod=BTC\nGetNewKeySupported=false\nImportWithNoScanSupported=false\nMinTxFee=200000\nBlockTime=60\nFeePerByte=0\nConfirmations=0\nTxWithTimeField=true\nLockCoinsSupported=true\n",
+		"shekel--1.4.0.conf": "[JEW]\r\nTitle=Shekel\r\nAddress=\r\nIp=127.0.0.1\r\nPort=5501\r\nUsername=\r\nPassword=\r\nAddressPrefix=43\r\nScriptPrefix=13\r\nSecretPrefix=212\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=60\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"sibcoin--v0.16.1.3.conf": "[SIB]\r\nTitle=Sibcoin\r\nAddress=\r\nIp=127.0.0.1\r\nPort=1944\r\nUsername=\r\nPassword=\r\nAddressPrefix=63\r\nScriptPrefix=40\r\nSecretPrefix=128\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=150\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"solaris--v2.8.0.0.conf": "[XLR]\r\nTitle=Solaris\r\nAddress=\r\nIp=127.0.0.1\r\nPort=61020\r\nUsername=\r\nPassword=\r\nAddressPrefix=63\r\nScriptPrefix=13\r\nSecretPrefix=212\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=60\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"sparks--0.12.1.3.conf": "[SPK]\r\nTitle=Sparks\r\nAddress=\r\nIp=127.0.0.1\r\nPort=8892\r\nUsername=\r\nPassword=\r\nAddressPrefix=38\r\nScriptPrefix=10\r\nSecretPrefix=198\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=2000\r\nBlockTime=120\r\nFeePerByte=4\r\nConfirmations=0\r\n",
+		"sparks--v0.12.3.2.conf": "[SPK]\nTitle=Sparks\nAddress=\nIp=127.0.0.1\nPort=8892\nUsername=\nPassword=\nAddressPrefix=38\nScriptPrefix=10\nSecretPrefix=198\nCOIN=100000000\nMinimumAmount=0\nTxVersion=1\nDustAmount=0\nCreateTxMethod=BTC\nGetNewKeySupported=true\nImportWithNoScanSupported=true\nMinTxFee=2000\nBlockTime=120\nFeePerByte=4\nConfirmations=0\n",
+		"straks--1.14.7.3.conf": "[STAK]\r\nTitle=STRAKS\r\nAddress=\r\nIp=127.0.0.1\r\nPort=7574\r\nUsername=\r\nPassword=\r\nAddressPrefix=63\r\nScriptPrefix=5\r\nSecretPrefix=204\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=60\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"sucr--v0.12.2.1.conf": "[SUCR]\r\nTitle=Sucre\r\nAddress=\r\nIp=127.0.0.1\r\nPort=9339\r\nUsername=\r\nPassword=\r\nAddressPrefix=63\r\nScriptPrefix=125\r\nSecretPrefix=9\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=2000\r\nBlockTime=150\r\nFeePerByte=4\r\nConfirmations=0\r\n",
+		"syndicate--v2.0.0.conf": "[SYNX]\r\nTitle=Syndicate\r\nAddress=\r\nIp=127.0.0.1\r\nPort=25993\r\nUsername=\r\nPassword=\r\nAddressPrefix=63\r\nScriptPrefix=85\r\nSecretPrefix=153\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=60\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"syscoin--3.0.5.0.conf": "[SYS]\r\nTitle=Syscoin\r\nAddress=\r\nIp=127.0.0.1\r\nPort=8370\r\nUsername=\r\nPassword=\r\nAddressPrefix=63\r\nScriptPrefix=5\r\nSecretPrefix=128\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nMinTxFee=10000\r\nBlockTime=60\r\nGetNewKeySupported=false\r\nImportWithNoScanSupported=false\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"terracoin--v0.12.1.8.conf": "[TRC]\r\nTitle=Terracoin\r\nAddress=\r\nIp=127.0.0.1\r\nPort=13332\r\nUsername=\r\nPassword=\r\nAddressPrefix=0\r\nScriptPrefix=5\r\nSecretPrefix=128\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=120\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"tribe--v1.0.0.conf": "[TRB]\r\nTitle=Tribe\r\nAddress=\r\nIp=127.0.0.1\r\nPort=9499\r\nUsername=\r\nPassword=\r\nAddressPrefix=30\r\nScriptPrefix=16\r\nSecretPrefix=204\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=150\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"ucom--v0.1.8.1.conf": "[UCOM]\nTitle=UnitedCryptoCommunity\nAddress=\nIp=127.0.0.1\nPort=8276\nUsername=\nPassword=\nAddressPrefix=46\nScriptPrefix=16\nSecretPrefix=204\nCOIN=100000000\nMinimumAmount=0\nTxVersion=1\nDustAmount=0\nCreateTxMethod=BTC\nGetNewKeySupported=true\nImportWithNoScanSupported=true\nMinTxFee=10000\nBlockTime=150\nFeePerByte=20\nConfirmations=0\n",
+		"ufocoin--v0.16.1.conf": "[UFO]\r\nTitle=UniformFiscalObject\r\nAddress=\r\nIp=127.0.0.1\r\nPort=9888\r\nUsername=\r\nPassword=\r\nAddressPrefix=27\r\nScriptPrefix=68\r\nSecretPrefix=155\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=2\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=200000\r\nBlockTime=90\r\nFeePerByte=400\r\nConfirmations=0\r\n",
+		"ultranatum--1.1.0.2.conf": "[ULTRA]\r\nTitle=Ultranatum\r\nAddress=\r\nIp=127.0.0.1\r\nPort=23655\r\nUsername=\r\nPassword=\r\nAddressPrefix=68\r\nScriptPrefix=130\r\nSecretPrefix=69\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=60\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"unbreakablecoin--v0.10.3.0.conf": "[UNB]\r\nTitle=Unbreakablecoin\r\nAddress=\r\nIp=127.0.0.1\r\nPort=9337\r\nUsername=\r\nPassword=\r\nAddressPrefix=0\r\nScriptPrefix=5\r\nSecretPrefix=128\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=5000\r\nBlockTime=300\r\nFeePerByte=10\r\nConfirmations=0\r\n",
+		"unitedcryptocommunity--v0.1.8.1.conf": "[UCOM]\r\nTitle=UnitedCryptoCommunity\r\nAddress=\r\nIp=127.0.0.1\r\nPort=8276\r\nUsername=\r\nPassword=\r\nAddressPrefix=46\r\nScriptPrefix=16\r\nSecretPrefix=204\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=150\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"unobtanium--v0.10.1.1.conf": "[UNO]\r\nTitle=Unobtanium\r\nAddress=\r\nIp=127.0.0.1\r\nPort=65535\r\nUsername=\r\nPassword=\r\nAddressPrefix=130\r\nScriptPrefix=30\r\nSecretPrefix=224\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=1000\r\nBlockTime=180\r\nFeePerByte=2\r\nConfirmations=0\r\n",
+		"vertcoin--0.12.0.conf": "[VTC]\nTitle=Vertcoin\nAddress=\nIp=127.0.0.1\nPort=5888\nUsername=\nPassword=\nAddressPrefix=71\nScriptPrefix=5\nSecretPrefix=199\nCOIN=100000000\nMinimumAmount=0\nTxVersion=1\nDustAmount=0\nCreateTxMethod=BTC\nGetNewKeySupported=false\nImportWithNoScanSupported=false\nMinTxFee=200000\nBlockTime=150\nFeePerByte=400\nConfirmations=0\n",
+		"vertcoin--0.13.2.conf": "[VTC]\r\nTitle=Vertcoin\r\nAddress=\r\nIp=127.0.0.1\r\nPort=5888\r\nUsername=\r\nPassword=\r\nAddressPrefix=71\r\nScriptPrefix=5\r\nSecretPrefix=199\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=false\r\nImportWithNoScanSupported=false\r\nMinTxFee=200000\r\nBlockTime=150\r\nFeePerByte=400\r\nConfirmations=0\r\n",
+		"viacoin--v0.15.1.conf": "[VIA]\r\nTitle=Viacoin\r\nAddress=\r\nIp=127.0.0.1\r\nPort=5222\r\nUsername=\r\nPassword=\r\nAddressPrefix=71\r\nScriptPrefix=33\r\nSecretPrefix=199\r\nCOIN=100000000\r\nMinimumAmount=0\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=false\r\nImportWithNoScanSupported=false\r\nFeePerByte=200\r\nMinTxFee=100000\r\nTxVersion=1\r\nBlockTime=24\r\nConfirmations=0\r\n",
+		"vitae--v4.1.0.1.conf": "[VITAE]\r\nTitle=Vitae\r\nAddress=\r\nIp=127.0.0.1\r\nPort=8764\r\nUsername=\r\nPassword=\r\nAddressPrefix=71\r\nScriptPrefix=13\r\nSecretPrefix=212\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=45\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"vivo--v0.12.1.8.conf": "[VIVO]\r\nTitle=VIVO\r\nAddress=\r\nIp=127.0.0.1\r\nPort=12846\r\nUsername=\r\nPassword=\r\nAddressPrefix=70\r\nScriptPrefix=10\r\nSecretPrefix=198\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=120\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"vsync--v3.8.5.0.conf": "[VSX]\r\nTitle=Vsync\r\nAddress=\r\nIp=127.0.0.1\r\nPort=65011\r\nUsername=\r\nPassword=\r\nAddressPrefix=70\r\nScriptPrefix=13\r\nSecretPrefix=212\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=60\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"vyigrat--v1.3.0.0.conf": "[VYI]\r\nTitle=Vyigrat\r\nAddress=\r\nIp=127.0.0.1\r\nPort=12699\r\nUsername=\r\nPassword=\r\nAddressPrefix=70\r\nScriptPrefix=137\r\nSecretPrefix=132\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=60\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"wagerr--1.5.0.conf": "[WGR]\r\nTitle=Wagerr\r\nAddress=\r\nIp=127.0.0.1\r\nPort=55003\r\nUsername=\r\nPassword=\r\nAddressPrefix=73\r\nScriptPrefix=63\r\nSecretPrefix=199\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=100000\r\nBlockTime=64\r\nFeePerByte=200\r\nConfirmations=0\r\n",
+		"xcurrency--v3.0.05.conf": "[XC]\r\nTitle=XCurrency\r\nAddress=\r\nIp=127.0.0.1\r\nPort=14332\r\nUsername=\r\nPassword=\r\nAddressPrefix=75\r\nScriptPrefix=8\r\nSecretPrefix=203\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=10000\r\nBlockTime=60\r\nFeePerByte=20\r\nConfirmations=0\r\n",
+		"xsn--v1.0.9.conf": "[XSN]\r\nTitle=StakeNet\r\nAddress=\r\nIp=127.0.0.1\r\nPort=62584\r\nUsername=\r\nPassword=\r\nAddressPrefix=76\r\nScriptPrefix=16\r\nSecretPrefix=204\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=2000\r\nBlockTime=60\r\nFeePerByte=4\r\nConfirmations=0\r\n",
+		"zcoin--v0.13.6.4.conf": "[XZC]\r\nTitle=ZCoin\r\nAddress=\r\nIp=127.0.0.1\r\nPort=8888\r\nUsername=\r\nPassword=\r\nAddressPrefix=82\r\nScriptPrefix=7\r\nSecretPrefix=210\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=100000\r\nBlockTime=600\r\nFeePerByte=200\r\nConfirmations=0\r\n",
+		"zoin--v0.13.1.6.conf": "[ZOI]\r\nTitle=Zoin\r\nAddress=\r\nIp=127.0.0.1\r\nPort=8822\r\nUsername=\r\nPassword=\r\nAddressPrefix=80\r\nScriptPrefix=7\r\nSecretPrefix=208\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=100000\r\nBlockTime=150\r\nFeePerByte=200\r\nConfirmations=0\r\n"
+	},
+	"user": "test",
+	"password": "1234",
+	"selectedWallets": [
+		"blocknetdx--v3.9.16"
+	]
+}
