@@ -2168,9 +2168,21 @@
 		"zcoin--v0.13.6.4.conf": "[XZC]\r\nTitle=ZCoin\r\nAddress=\r\nIp=127.0.0.1\r\nPort=8888\r\nUsername=\r\nPassword=\r\nAddressPrefix=82\r\nScriptPrefix=7\r\nSecretPrefix=210\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=100000\r\nBlockTime=600\r\nFeePerByte=200\r\nConfirmations=0\r\n",
 		"zoin--v0.13.1.6.conf": "[ZOI]\r\nTitle=Zoin\r\nAddress=\r\nIp=127.0.0.1\r\nPort=8822\r\nUsername=\r\nPassword=\r\nAddressPrefix=80\r\nScriptPrefix=7\r\nSecretPrefix=208\r\nCOIN=100000000\r\nMinimumAmount=0\r\nTxVersion=1\r\nDustAmount=0\r\nCreateTxMethod=BTC\r\nGetNewKeySupported=true\r\nImportWithNoScanSupported=true\r\nMinTxFee=100000\r\nBlockTime=150\r\nFeePerByte=200\r\nConfirmations=0\r\n"
 	},
-	"user": "blocknetdxrpc",
-	"password": "DsSjSaRQdPHNJkedZf2K2dcNTEVg3ztCuK2m7vjAisCK",
+	"user": "{{BLOCKNETDX_RPC_USER}}",
+	"password": "{{BLOCKNETDX_RPC_PASSWORD}}",
 	"selectedWallets": [
-		"blocknetdx--v3.9.16"
-	]
+	  "blocknetdx--v3.9.16",
+		"bitcoin--v0.17.0"
+	],
+	"keyPair": [
+    "BLOCK",
+    "BTC"
+  ],
+	"isFirstRun": false,
+	"bounds": {
+	  "x": 0,
+	  "y": 30,
+	  "width": 1280,
+	  "height": 720
+	}
 }

@@ -36,27 +36,41 @@ VOLUME /data
 
 RUN apt-get update && apt-get install -y \
 	ca-certificates \
-	libgtk-3-dev \
-	hicolor-icon-theme \
-	fonts-noto \
-	fonts-noto-cjk \
 	supervisor \
-	procps \
 	netcat \
-	fonts-noto-color-emoji \
-	wget gconf2 gconf-service libnotify4 libappindicator1 libnss3 libxss1 libasound2 \
+	gconf2 \
+	gconf-service \
+	libnotify4 \
+	libappindicator1 \
+	libxtst6 \
+	libnss3 \
+	libxss1 \
+	libgtk-3-dev \
+	libasound2 \
+	wget \
+	procps curl net-tools dnsutils vim \
 	--no-install-recommends \
-	&& rm -rf /var/lib/apt/lists/*
+  && apt-get clean \
+	&& rm -rf /var/lib/apt/lists/* \
+  && rm -rf /var/cache/apt \
+  && mkdir -p /var/cache/apt \
 
 ENV LANG en-US
 
-RUN wget -qO block-dx.deb https://github.com/BlocknetDX/block-dx/releases/download/v1.0.1/BLOCK-DX-1.0.1-linux.deb && \
-dpkg -i block-dx.deb
+# libgtk-3-dev \
+# hicolor-icon-theme \
+# fonts-noto \
+# fonts-noto-cjk \
+# fonts-noto-color-emoji \
+
+RUN wget -qO block-dx.deb https://github.com/BlocknetDX/block-dx/releases/download/v1.0.1/BLOCK-DX-1.0.1-linux.deb
+
+RUN dpkg -i block-dx.deb
 
 COPY bin/* /usr/local/bin/
 COPY etc/app-meta.json /home/blocknet/.config/BLOCK-DX/app-meta.json
 COPY etc/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
-EXPOSE 41412 41414
+EXPOSE 41414
 
 ENTRYPOINT [ "supervisord" ]
