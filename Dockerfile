@@ -68,13 +68,11 @@ RUN wget -qO block-dx.deb https://github.com/BlocknetDX/block-dx/releases/downlo
 RUN dpkg -i block-dx.deb
 
 COPY bin/* /usr/local/bin/
-COPY config/blocknetdx.conf /home/blocknet/.blocknetdx/blocknetdx.conf
 
 # -----------------------
 # SETUP CONSUL TEMPLATE
 #------------------------
 COPY config/consul-template.hcl /usr/local/etc/consul-template/etc/config.hcl
-COPY consul_templates/start-blockdx.ctmpl /usr/local/bin/start-blockdx.ctmpl
 COPY consul_templates/xbridge.conf.ctmpl /home/blocknet/.blocknetdx/xbridge.conf.ctmpl
 COPY consul_templates/blocknetdx.conf.ctmpl /home/blocknet/.blocknetdx/blocknetdx.conf.ctmpl
 COPY consul_templates/app-meta.json.ctmpl /home/blocknet/.config/BLOCK-DX/app-meta.json.ctmpl

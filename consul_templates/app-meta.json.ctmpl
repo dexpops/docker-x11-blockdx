@@ -1,4 +1,3 @@
-{{ range service "blocknetdx-qt|passing" }}
 {
 	"pricingSource": "CRYPTO_COMPARE",
 	"apiKeys": {},
@@ -2187,4 +2186,3 @@
 	  "height": 720
 	}
 }
-{{ end }}

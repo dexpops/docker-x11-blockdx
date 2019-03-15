@@ -34,8 +34,8 @@ max_stale = "10m"
 log_level = "info"
 
 wait {
-  min = "5s"
-  max = "10s"
+  min = "20s"
+  max = "60s"
 }
 
 deduplicate {
@@ -59,13 +59,9 @@ template {
 
   create_dest_dirs = true
 
-  command = "/usr/bin/supervisorctl restart blocknetdx-qt"
+  error_on_missing_key = true
 
-  command_timeout = "60s"
-
-  error_on_missing_key = false
-
-  perms = 0644
+  perms = 0666
 
   backup = true
 
@@ -73,9 +69,10 @@ template {
   right_delimiter = "}}"
 
   wait {
-    min = "2s"
-    max = "10s"
+    min = "20s"
+    max = "60s"
   }
+
 }
 
 template {
@@ -86,13 +83,9 @@ template {
 
   create_dest_dirs = true
 
-  command = "/usr/bin/supervisorctl restart blocknetdx-qt"
+  error_on_missing_key = true
 
-  command_timeout = "60s"
-
-  error_on_missing_key = false
-
-  perms = 0644
+  perms = 0666
 
   backup = true
 
@@ -100,8 +93,8 @@ template {
   right_delimiter = "}}"
 
   wait {
-    min = "2s"
-    max = "10s"
+    min = "20s"
+    max = "60s"
   }
 
 }
@@ -114,41 +107,9 @@ template {
 
   create_dest_dirs = true
 
-  command = "supervisorctl restart blockdx"
+  error_on_missing_key = true
 
-  command_timeout = "60s"
-
-  error_on_missing_key = false
-
-  perms = 0644
-
-  backup = true
-
-  left_delimiter  = "{{"
-  right_delimiter = "}}"
-
-  wait {
-    min = "2s"
-    max = "10s"
-  }
-
-}
-
-template {
-
-  # contents = "{{ keyOrDefault \"service/redis/maxconns@east-aws\" \"5\" }}"
-  source = "/usr/local/bin/start-blockdx.ctmpl"
-  destination = "/usr/local/bin/start-blockdx"
-
-  create_dest_dirs = true
-
-  command = "supervisorctl restart blockdx"
-
-  command_timeout = "60s"
-
-  error_on_missing_key = false
-
-  perms = 0755
+  perms = 0666
 
   backup = true
 
