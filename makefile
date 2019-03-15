@@ -10,10 +10,6 @@ run:
 		-e BLOCKNETDX_SNAPSHOT="/BlocknetDX.zip" \
 		-e BLOCKNETDX_RPC_USER="test" \
 		-e BLOCKNETDX_RPC_PASSWORD="1234" \
-		-e BITCOIN_ADDRESS = "172.17.0.4"
-		-e BITCOIN_PORT = "8332"
-		-e BITCOIN_RPC_USER = "test"
-		-e BITCOIN_RPC_PASSWORD = "1234"
 		-d dexpops/docker-x11-blockdx:latest
 
 stop:

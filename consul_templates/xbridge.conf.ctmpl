@@ -1,0 +1,49 @@
+[Main]
+ExchangeWallets=BLOCK,BTC
+FullLog=true
+LogPath=
+ExchangeTax=300
+
+{{ range service "blocknetdx-qt|passing" }}[BLOCK]
+Title=Blocknet
+Ip=127.0.0.1
+Port=41414
+AddressPrefix=26
+ScriptPrefix=28
+SecretPrefix=154
+COIN=100000000
+MinimumAmount=0
+TxVersion=1
+DustAmount=0
+CreateTxMethod=BTC
+GetNewKeySupported=true
+ImportWithNoScanSupported=true
+MinTxFee=10000
+BlockTime=60
+FeePerByte=20
+Confirmations=0
+Username={{ env "BLOCKNETDX_RPC_USER" }}
+Password={{ env "BLOCKNETDX_RPC_PASSWORD" }}
+Address={{ end }}
+
+{{ range service "bitcoind|passing" }}[BTC]
+Title=Bitcoin
+Address=
+Ip={{ .Address }}
+Port={{ .Port }}
+Username=bitcoinrpc
+Password=password1234
+AddressPrefix=0
+ScriptPrefix=5
+SecretPrefix=128
+COIN=100000000
+MinimumAmount=0
+TxVersion=2
+DustAmount=0
+CreateTxMethod=BTC
+MinTxFee=0
+BlockTime=600
+GetNewKeySupported=false
+ImportWithNoScanSupported=false
+FeePerByte=30
+Confirmations=0{{ end }}

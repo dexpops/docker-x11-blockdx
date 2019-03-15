@@ -2,28 +2,30 @@ FROM debian:stretch-slim as builder
 
 RUN set -ex \
 	&& apt-get update \
-	&& apt-get install -qq --no-install-recommends ca-certificates dirmngr gosu wget unzip
+	&& apt-get install -qq --no-install-recommends ca-certificates dirmngr gosu wget unzip \
+	&& mkdir /tmp/bin
 
 ENV BLOCKNETDX_VERSION 3.12.1
 ENV BLOCKNETDX_URL https://github.com/BlocknetDX/blocknet/releases/download/v$BLOCKNETDX_VERSION/blocknetdx-$BLOCKNETDX_VERSION-x86_64-linux-gnu.tar.gz
-ENV BLOCKNETDX_SHA256 ef083b72721b50cd132c25a1cd7af8cd7ed857774488cd62f5c3c9843673ca31
+ENV CONSUL_TEMPLATE_VERSION 0.20.0
+ENV GOSU_VERSION 1.11
 
-# install blocknetdx binaries
+WORKDIR /tmp
+
+# install blocknetdx, consul-temlate and gosu binaries
 RUN set -ex \
-	&& cd /tmp \
-	&& wget -qO blocknetdx.tar.gz "$BLOCKNETDX_URL" \
-	&& echo "$BLOCKNETDX_SHA256 blocknetdx.tar.gz" | sha256sum -c - \
-	&& mkdir bin \
-	&& tar -xzvf blocknetdx.tar.gz -C /tmp/bin --strip-components=2 "blocknetdx-$BLOCKNETDX_VERSION/bin/blocknetdx-cli" "blocknetdx-$BLOCKNETDX_VERSION/bin/blocknetdxd" "blocknetdx-$BLOCKNETDX_VERSION/bin/blocknetdx-qt" \
-	&& cd bin \
-	&& wget -qO gosu "https://github.com/tianon/gosu/releases/download/1.11/gosu-amd64" \
-	&& echo "0b843df6d86e270c5b0f5cbd3c326a04e18f4b7f9b8457fa497b0454c4b138d7 gosu" | sha256sum -c - \
-  && cp $(which unzip) /tmp/bin
+&& wget -qO blocknetdx.tar.gz "$BLOCKNETDX_URL" \
+&& wget -qO gosu "https://github.com/tianon/gosu/releases/download/$GOSU_VERSION/gosu-amd64" \
+&& wget -qO consul-template.zip "https://releases.hashicorp.com/consul-template/0.20.0/consul-template_0.20.0_linux_amd64.zip" \
+&& tar -xzvf blocknetdx.tar.gz --strip-components=2 "blocknetdx-$BLOCKNETDX_VERSION/bin/blocknetdx-cli" "blocknetdx-$BLOCKNETDX_VERSION/bin/blocknetdxd" "blocknetdx-$BLOCKNETDX_VERSION/bin/blocknetdx-qt" \
+&& cp blocknetdx-cli /tmp/bin && cp blocknetdxd /tmp/bin && cp blocknetdx-qt /tmp/bin \
+&& unzip -d /tmp/bin consul-template.zip \
+&& cp gosu /tmp/bin && cp $(which wget) /tmp/bin && cp $(which unzip) /tmp/bin
 
 FROM debian:sid-slim
 COPY --from=builder "/tmp/bin" /usr/local/bin
 
-RUN chmod +x /usr/local/bin/gosu && groupadd -r blocknet && useradd -r -m -g blocknet blocknet
+RUN ls -lastrh /usr/local/bin && chmod +x /usr/local/bin/gosu && groupadd -r blocknet && useradd -r -m -g blocknet blocknet
 
 # create data directory
 ENV BLOCKNETDX_DATA /data
@@ -47,13 +49,12 @@ RUN apt-get update && apt-get install -y \
 	libxss1 \
 	libgtk-3-dev \
 	libasound2 \
-	wget \
 	procps curl net-tools dnsutils vim \
 	--no-install-recommends \
   && apt-get clean \
 	&& rm -rf /var/lib/apt/lists/* \
   && rm -rf /var/cache/apt \
-  && mkdir -p /var/cache/apt \
+  && mkdir -p /var/cache/apt
 
 ENV LANG en-US
 
@@ -64,13 +65,25 @@ ENV LANG en-US
 # fonts-noto-color-emoji \
 
 RUN wget -qO block-dx.deb https://github.com/BlocknetDX/block-dx/releases/download/v1.0.1/BLOCK-DX-1.0.1-linux.deb
-
 RUN dpkg -i block-dx.deb
 
 COPY bin/* /usr/local/bin/
-COPY etc/app-meta.json /home/blocknet/.config/BLOCK-DX/app-meta.json
-COPY etc/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+COPY config/blocknetdx.conf /home/blocknet/.blocknetdx/blocknetdx.conf
+
+# -----------------------
+# SETUP CONSUL TEMPLATE
+#------------------------
+COPY config/consul-template.hcl /usr/local/etc/consul-template/etc/config.hcl
+COPY consul_templates/xbridge.conf.ctmpl /home/blocknet/.blocknetdx/xbridge.conf.ctmpl
+COPY consul_templates/blocknetdx.conf.ctmpl /home/blocknet/.blocknetdx/blocknetdx.conf.ctmpl
+COPY consul_templates/app-meta.json.ctmpl /home/blocknet/.config/BLOCK-DX/app-meta.json.ctmpl
+
+# ----------------------
+# SETUP SUPERVISOR
+#-----------------------
+COPY supervisor/supervisord.conf /etc/supervisor/supervisord.conf
+COPY supervisor/conf.d/* /etc/supervisor/conf.d/
 
 EXPOSE 41414
 
-ENTRYPOINT [ "supervisord" ]
+ENTRYPOINT [ "supervisord", "-c", "/etc/supervisor/supervisord.conf" ]

@@ -1,0 +1,25 @@
+#!/bin/bash
+echo "Starting blocknetdx-qt"
+
+# Fast sync mode?
+if [[ ! -v BLOCKNETDX_SNAPSHOT ]]
+then
+  echo "Normal startup"
+  echo $BLOCKNETDX_SNAPSHOT
+else
+  echo "Check fastsync startup?"
+  if [ ! -f "$BLOCKNETDX_DATA/.fast_synced" ]
+  then
+    echo "Extracting snapshot from zip: $BLOCKNETDX_SNAPSHOT to: $BLOCKNETDX_DATA"
+    unzip -d $BLOCKNETDX_DATA $BLOCKNETDX_SNAPSHOT
+    mv $BLOCKNETDX_DATA/BlocknetDX/blocks $BLOCKNETDX_DATA/blocks
+    mv $BLOCKNETDX_DATA/BlocknetDX/chainstate $BLOCKNETDX_DATA/chainstate
+    touch $BLOCKNETDX_DATA/.fast_synced
+  fi
+fi
+
+chown -R blocknet:blocknet $BLOCKNETDX_DATA
+chown -R blocknet:blocknet /home/blocknet/.blocknetdx
+chown -R blocknet:blocknet /home/blocknet/.config
+
+exec gosu blocknet blocknetdx-qt --conf=/home/blocknet/.blocknetdx/blocknetdx.conf
