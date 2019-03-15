@@ -31,7 +31,7 @@ consul {
 reload_signal = "SIGHUP"
 kill_signal = "SIGINT"
 max_stale = "10m"
-log_level = "debug"
+log_level = "info"
 
 wait {
   min = "5s"
@@ -114,13 +114,41 @@ template {
 
   create_dest_dirs = true
 
-  command = "/usr/bin/supervisorctl restart block-dx"
+  command = "supervisorctl restart blockdx"
 
   command_timeout = "60s"
 
   error_on_missing_key = false
 
   perms = 0644
+
+  backup = true
+
+  left_delimiter  = "{{"
+  right_delimiter = "}}"
+
+  wait {
+    min = "2s"
+    max = "10s"
+  }
+
+}
+
+template {
+
+  # contents = "{{ keyOrDefault \"service/redis/maxconns@east-aws\" \"5\" }}"
+  source = "/usr/local/bin/start-blockdx.ctmpl"
+  destination = "/usr/local/bin/start-blockdx"
+
+  create_dest_dirs = true
+
+  command = "supervisorctl restart blockdx"
+
+  command_timeout = "60s"
+
+  error_on_missing_key = false
+
+  perms = 0755
 
   backup = true
 

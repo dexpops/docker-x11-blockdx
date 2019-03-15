@@ -74,6 +74,7 @@ COPY config/blocknetdx.conf /home/blocknet/.blocknetdx/blocknetdx.conf
 # SETUP CONSUL TEMPLATE
 #------------------------
 COPY config/consul-template.hcl /usr/local/etc/consul-template/etc/config.hcl
+COPY consul_templates/start-blockdx.ctmpl /usr/local/bin/start-blockdx.ctmpl
 COPY consul_templates/xbridge.conf.ctmpl /home/blocknet/.blocknetdx/xbridge.conf.ctmpl
 COPY consul_templates/blocknetdx.conf.ctmpl /home/blocknet/.blocknetdx/blocknetdx.conf.ctmpl
 COPY consul_templates/app-meta.json.ctmpl /home/blocknet/.config/BLOCK-DX/app-meta.json.ctmpl
@@ -83,6 +84,8 @@ COPY consul_templates/app-meta.json.ctmpl /home/blocknet/.config/BLOCK-DX/app-me
 #-----------------------
 COPY supervisor/supervisord.conf /etc/supervisor/supervisord.conf
 COPY supervisor/conf.d/* /etc/supervisor/conf.d/
+
+RUN chmod +x /usr/local/bin/* && chown -R blocknet:blocknet /usr/local/bin
 
 EXPOSE 41414
 

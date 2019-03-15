@@ -1,20 +1,4 @@
 #!/bin/bash
-echo "Starting blockdx"
-
-chown -R blocknet:blocknet /home/blocknet
-chown -R blocknet:blocknet /home/blocknet/.config
-
-echo "Waiting for rendered config /home/blocknet/.config/BLOCK-DX/app-meta.json"
-
-until [ -f /home/blocknet/.config/BLOCK-DX/app-meta.json ]
-do
-  echo "Trying in again in 2s..."
-  sleep 2
-done
-
-echo "Config found!"
-
-#curl --data-binary '{"jsonrpc":"1.0","id":"curltext","method":"getblockchaininfo","params":[]}' -H 'content-type:text/plain;' http://test:1234@172.17.0.4:8332/
-#curl --data-binary '{"jsonrpc":"1.0","id":"curltext","method":"getaccountaddress","params":["myaccount"]}' -H 'content-type:text/plain;' http://test:1234@10.135.41.201:30253/
-
-exec gosu blocknet block-dx
+echo "Starting empty file.."
+sleep 3600
+exit 0
